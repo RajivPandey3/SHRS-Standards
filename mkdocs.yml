@@ -89,3 +89,8 @@ nav:
       - Annexes:
           - Annex A (GDD Template): standards/SEG/annexes/annex-a-gdd-template.md
           - Annex B (Technical Doc Template): standards/SEG/annexes/annex-b-technical-doc-template.md
+  - Standards Authoring Operations (SAO):
+      - Index: standards/SAO/index.md
+      - Chapters:
+          - Chapter 1 (Authoring Workflows): standards/SAO/chapters/authoring-workflows.md
+          - Chapter 2 (Git Branching Strategy): standards/SAO/chapters/git-branching-strategy.md
