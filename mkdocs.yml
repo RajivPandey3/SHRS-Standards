@@ -78,3 +78,8 @@ nav:
           - Chapter 13 (Compliance): standards/KPM/chapters/compliance.md
           - Chapter 14 (Best Practices): standards/KPM/chapters/best-practices.md
           - Chapter 15 (Architectural Summary): standards/KPM/chapters/architectural-summary.md
+  - Standards Editorial Guide (SEG):
+      - Index: standards/SEG/index.md
+      - Chapters:
+          - Chapter 1 (Purpose & Scope): standards/SEG/chapters/purpose-and-scope.md
+          - Chapter 2 (Game Terminology): standards/SEG/chapters/game-terminology.md
