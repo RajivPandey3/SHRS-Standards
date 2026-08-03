@@ -44,6 +44,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Program Roadmap: program/ROADMAP.md
   - Soul-Hunter Implementation:
       - Architecture:
           - Event Bus System: soul-hunter/architecture/event-bus.md

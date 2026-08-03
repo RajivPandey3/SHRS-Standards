@@ -5,34 +5,34 @@ Welcome to the **SHRS Standards Repository**, the canonical home for the governa
 ## What is SHRS?
 SHRS (Standardized Hierarchical Record System) is an advanced framework designed to maintain knowledge and standards with absolute structural and semantic integrity. This repository contains the constitutional baselines that govern how knowledge is created, validated, published, and evolved.
 
-## Repository Structure
+## Repository Architecture Layers
+The repository is strictly divided into functional layers. Every file must earn its place in one of these boundaries:
 ```text
-├── docs/
-│   ├── index.md           # Main documentation entry point
-│   └── standards/
-│       ├── SGM/           # Standards Governance Model
-│       └── KPM/           # Knowledge Package Publication Model
-├── mkdocs.yml             # AAA Website Configuration
-├── README.md
-└── LICENSE.md
+├── docs/       # Canonical Knowledge (Standards, Charters, ADRs, Game Design)
+├── tools/      # Engineering Utilities (Inspectors, scripts)
+├── reviews/    # Audit Evidence (Engineering review records)
+├── site/       # Generated Output (Never committed to main)
 ```
+*Note: `site/` is a generated artifact and is ignored by version control. It is only built during deployment.*
 
 ## Standards Included
 - **[Standards Governance Model (SGM)](docs/standards/SGM/index.md)**: The foundational rules for creating, maintaining, and publishing high-quality standards.
-- **[Knowledge Package Publication Model (KPM)](docs/standards/KPM/chapters/chapter-11-publication.md)**: The canonical framework for publishing Knowledge Packages (KPM-BL-001).
+- **[Knowledge Package Publication Model (KPM)](docs/standards/KPM/chapters/publication.md)**: The canonical framework for publishing Knowledge Packages (KPM-BL-001).
+- **[SHRS Ecosystem Constitution (SEC)](docs/standards/SEC/index.md)**: The supreme legal document governing the entire engineering ecosystem.
+- **[Architecture Decision Records (ADRs)](docs/architecture/ADRs/index.md)**: Canonical registry of all major ecosystem decisions.
 
 ## Current Status
-- **SGM**: Release Candidate 1 (RC-1) Ready.
-- **KPM**: Finalized Baseline (KPM-BL-001).
-- **Website**: Live via MkDocs Material.
+See our active decisions and active sprint status in the Roadmap.
 
 ## Roadmap
-1. Finalize SGM RC-1 Audit.
-2. Formally constitute the SHRS Governance Board.
-3. Introduce KRA and KAM baselines into the canonical repository.
+For the canonical source of truth regarding Sprints and Program Missions, see: 
+**[docs/program/ROADMAP.md](docs/program/ROADMAP.md)**
 
 ## How to Contribute
-Currently, this repository is strictly managed by the **Standards Maintainer**. All modifications must pass through the Governance Gates defined in SGM Chapter 6 (Release Governance). Pull Requests must include a completed Governance Record.
+SHRS follows a strict Governance Process to ensure no architectural debt is introduced.
+**Workflow:** `Issue` ➔ `Review` ➔ `Approval` ➔ `Merge`
+
+All modifications must pass through the Governance Gates. Direct pushes to `main` are strictly prohibited.
 
 ## Repository Navigation
 - Browse the raw markdown files in `docs/standards/`.
