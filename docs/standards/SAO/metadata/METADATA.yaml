@@ -1,0 +1,8 @@
+standard_name: "Standards Authoring Operations (SAO)"
+short_name: "SAO"
+edition: 1
+status: "Working Draft (WD)"
+owner: "Standards Maintainer (Transitional)"
+approval_authority: "Standards Maintainer (Transitional)"
+classification: "Public"
+repository_location: "docs/standards/SAO"
