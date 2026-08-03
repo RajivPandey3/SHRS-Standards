@@ -15,3 +15,8 @@ The Publication Authority oversees the final steps of releasing a Standard. They
 
 ## 3.2 Decision Making Process
 All decisions impacting normative content MUST be documented as a Governance Record. No single role CAN bypass the established Governance Gates without following the defined Change Request and Work Order procedures.
+
+## 3.3 Voting and Dispute Resolution
+Governance Decisions at the Approval Authority level SHALL require a consensus or a defined supermajority (e.g., two-thirds) to pass a Governance Gate.
+- **Disagreements**: If a consensus CANNOT be reached, a formal dispute resolution process MUST be triggered, resulting in an escalation to the SHRS Governance Board.
+- **Appeals**: Any rejected Change Request MAY be appealed by providing new or updated Governance Evidence.

@@ -12,7 +12,21 @@ A Standard SHALL always exist in one of the following recognized Lifecycle State
 - **Deprecated**: The Standard is no longer recommended for active use.
 
 ## 4.2 State Transitions
+
 Moving from one Lifecycle State to another REQUIRES passing through a Governance Gate. These transitions MUST be documented via a Governance Record.
+
+The following diagram illustrates the canonical state transitions:
+
+```mermaid
+stateDiagram-v2
+    [*] --> Draft : Initiated (Work Order)
+    Draft --> UnderReview : Submit for Review
+    UnderReview --> Draft : Changes Requested
+    UnderReview --> Approved : Governance Gate (Approved)
+    Approved --> Published : Publication Gate (Release)
+    Published --> Draft : New Revision
+    Published --> Deprecated : End of Life
+```
 
 ## 4.3 Versioning Strategy
 Every transition and publication is tracked using precise terminology:
