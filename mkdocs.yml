@@ -73,8 +73,8 @@ nav:
           - Terminology Registry: standards/SGM/metadata/terminology-registry.md
   - Knowledge Package Publication Model (KPM):
       - Chapters:
-          - Chapter 11 (Publication): standards/KPM/chapters/chapter-11-publication.md
-          - Chapter 12 (Evolution): standards/KPM/chapters/chapter-12-evolution.md
-          - Chapter 13 (Compliance): standards/KPM/chapters/chapter-13-compliance.md
-          - Chapter 14 (Best Practices): standards/KPM/chapters/chapter-14-best-practices.md
-          - Chapter 15 (Architectural Summary): standards/KPM/chapters/chapter-15-architectural-summary.md
+          - Chapter 11 (Publication): standards/KPM/chapters/publication.md
+          - Chapter 12 (Evolution): standards/KPM/chapters/evolution.md
+          - Chapter 13 (Compliance): standards/KPM/chapters/compliance.md
+          - Chapter 14 (Best Practices): standards/KPM/chapters/best-practices.md
+          - Chapter 15 (Architectural Summary): standards/KPM/chapters/architectural-summary.md

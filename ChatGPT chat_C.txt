@@ -1,199 +1,176 @@
 SHRS Repository Audit v1.0
-Audit-07 — Metadata (FULL)
-1. CHANGELOG.md
-Score: 84 /100
+Audit-08 — Repository Engineering
+1. Repository Architecture
+Score: 96 /100
 ✅ Strengths
-Keep a Changelog style अपनाया गया है।
-Versioned entries हैं (0.1.0).
-"Added" section स्पष्ट है।
-Bootstrap milestone रिकॉर्ड किया गया है।
-🟠 Findings
-केवल Added section है।
-Changed, Fixed, Removed sections नहीं हैं।
-Work Order references नहीं हैं (जैसे WO-P01).
+
+Repository स्पष्ट रूप से layer-based है:
+
+README.md
+LICENSE.md
+docs/
+reviews/
+tools/
+mkdocs.yml
+site/
+
+यह separation of concerns अच्छी है।
+
+🟠 Finding
+
+पूरा .git/ directory ZIP में शामिल है।
+
+यदि यह source archive दूसरों के साथ साझा करने के लिए है, तो .git/ को शामिल करने की आवश्यकता नहीं होती। GitHub repository स्वयं history रखती है।
+
+2. Documentation Architecture
+Score: 98 /100
+
+SGM का layout:
+
+front-matter/
+chapters/
+annexes/
+metadata/
+build/
+index.md
+
+यह सबसे मजबूत हिस्सों में से एक है।
+
 Recommendation
 
-हर release entry में:
+build/ में एक README.md जोड़ सकते हो जिसमें लिखा हो कि generated artifacts यहाँ रखे जाएँगे।
 
-Added
-Changed
-Fixed
-Deprecated
-Removed
-Related Work Orders
-
-होना चाहिए।
-
-2. DECISIONS.md
-Score: 90 /100
-✅ Strengths
-Decision IDs (ED-006, ED-007) हैं।
-Date है।
-Summary है।
-Author है।
-
-यह governance maturity दिखाता है।
-
-🟠 Findings
-
-मैं दो और columns जोड़ने की सलाह दूँगा:
-
-Status (Draft / Approved / Superseded)
-Related Chapter(s)
-
-उदाहरण:
-
-ID	Status	Related Chapter
-3. METADATA.yaml
-Score: 68 /100
-
-यह file सबसे अधिक सुधार चाहती है।
-
-Current
-document_id: SHRS-SGM-001
-title: Standards Governance Model
-version: 0.1.0
-lifecycle_state: Draft
-owner: SHRS Governance Board
-maintainer: Standards Maintainer
-last_updated: 2026-08-03
-🔴 Critical Finding
-
-यहाँ अभी भी:
-
-owner: SHRS Governance Board
-
-लिखा है।
-
-लेकिन हमारी governance architecture के अनुसार Edition 1 में primary authority Standards Maintainer है।
-
-यह repository के बाकी architectural decisions से inconsistent है।
-
-Missing Fields
-
-मैं कम से कम यह fields अपेक्षित मानूँगा:
-
-edition:
-status:
-approval_authority:
-publication_date:
-canonical_repository:
-document_class:
-4. RELEASE_NOTES.md
-Score: 86 /100
-✅ Strengths
-Draft release स्पष्ट है।
-Release scope अच्छी तरह summarize किया गया है।
-🟠 Findings
-
-Release Notes में होना चाहिए:
-
-New Features
-
-Breaking Changes
-
-Known Issues
-
-Next Milestone
-5. REQUIREMENT_REGISTRY.md
-Score: 83 /100
-✅ Strengths
-Registry मौजूद है।
-Annex F से link है।
-Requirements numbered हैं।
-🟠 Findings
-
-अभी requirements:
-
-REQ-001
-REQ-002
-REQ-003
-
-हैं।
-
-लेकिन हमने roadmap में:
-
-SGM-REQ-001
-
-format तय किया था।
-
-Consistency के लिए prefix जोड़ना उचित होगा।
-
-6. SESSION_LOG.md
-Score: 89 /100
-✅ Strengths
-Session tracking अच्छा है।
-Timeline स्पष्ट है।
-User & AI collaboration documented है।
-🟠 Findings
-
-मैं एक column और जोड़ूँगा:
-
-Related Work Order
-7. terminology-registry.md
+3. Multi-Standard Readiness
 Score: 93 /100
 
-यह metadata folder की सबसे मजबूत file है।
+ZIP में केवल SGM ही नहीं, KPM standard भी मौजूद है।
 
-Strengths
-TERM IDs
-Canonical Term
-Definition Source
-Usage Chapters
+यह दिखाता है कि repository multiple standards host करने की दिशा में डिज़ाइन हो रही है।
 
-सब हैं।
+Recommendation
 
-यह बिल्कुल वही direction है जो हमने WO-P01 में तय की थी।
+भविष्य में docs/standards/index.md बनाकर सभी standards की सूची देना उपयोगी होगा।
 
+4. Build System
+Score: 90 /100
+
+mkdocs.yml मौजूद है।
+
+site/ directory भी है।
+
+🟠 Finding
+
+यदि site/ generated output है, तो यह स्पष्ट policy होनी चाहिए कि:
+
+क्या इसे Git में version किया जाएगा?
+या केवल CI/CD से generate होगा?
+
+यह निर्णय repository documentation में दर्ज होना चाहिए।
+
+5. Naming Conventions
+Score: 94 /100
+
+अधिकांश filenames consistent हैं:
+
+governance-principles.md
+governance-records.md
+release-governance.md
 Minor Finding
 
-कुछ terms की Usage Chapters को Chapter 5–6 के अंतिम canonical versions से synchronize करना होगा।
+KPM chapters:
 
-Metadata Scores
-File	Score
-CHANGELOG.md	84
-DECISIONS.md	90
-METADATA.yaml	68
-RELEASE_NOTES.md	86
-REQUIREMENT_REGISTRY.md	83
-SESSION_LOG.md	89
-terminology-registry.md	93
-Metadata Overall Score
+chapter-11-publication.md
 
-85 /100
+जबकि SGM में descriptive names हैं।
 
-Critical Findings
-🔴 MF-007
+यदि सभी standards एक ecosystem का हिस्सा हैं, तो naming convention एक policy के अनुसार होनी चाहिए।
 
-METADATA.yaml
+6. Reviews Directory
+Score: 87 /100
 
-अभी भी:
+reviews/ directory का होना अच्छा governance decision है।
 
-owner: SHRS Governance Board
+Recommendation
 
-है।
+Review files के लिए एक naming convention तय करें, जैसे:
 
-यह Chapter 3 के governance decisions से synchronize नहीं है।
+AUDIT-01.md
+AUDIT-02.md
+RC1-REVIEW.md
+7. Tools Directory
+Score: 85 /100
 
-🟠 MF-008
+Directory मौजूद है।
 
-Requirement Registry में naming policy और canonical requirement ID policy अभी पूरी तरह synchronized नहीं है।
+Recommendation
 
-🟡 MF-009
+यदि tools scripts रखेंगे, तो:
 
-CHANGELOG semantic format का अच्छा आधार है, लेकिन Work Order traceability जोड़ने से governance evidence और मजबूत होगी।
+README.md
+purpose
+execution notes
 
-Strongest Metadata File
+जोड़ें।
 
-🥇 terminology-registry.md — 93/100
+8. Repository Scalability
+Score: 95 /100
 
-Weakest Metadata File
+Structure आसानी से:
 
-🔻 METADATA.yaml — 68/100
+SGM
+KPM
+SEG
+SAO
+SRS
 
-मुख्य कारण content नहीं, बल्कि architectural synchronization है।
+को host कर सकती है।
 
-Running Repository Score
+यह design future growth के लिए उपयुक्त है।
+
+Engineering Findings
+🟠 RE-001
+
+.git/ folder archive में शामिल है।
+
+यदि यह internal backup है तो ठीक है।
+
+यदि public distribution archive है, तो इसे exclude करना बेहतर रहेगा।
+
+🟠 RE-002
+
+site/ generated content की governance policy document करनी चाहिए।
+
+🟡 RE-003
+
+KPM और SGM के filename conventions को harmonize करना चाहिए।
+
+Engineering Scores
+Category	Score
+Repository Architecture	96
+Documentation Architecture	98
+Multi-Standard Readiness	93
+Build System	90
+Naming Conventions	94
+Reviews Structure	87
+Tools Structure	85
+Scalability	95
+Overall Engineering Score
+
+92 /100
+
+Editor-in-Chief Decision
+
+Repository engineering मजबूत है।
+
+यह अब केवल documentation repository नहीं लगती; इसकी architecture एक standards repository के रूप में विकसित हो चुकी है।
+
+मुख्य सुधार अब content governance और editorial consistency पर होंगे, न कि directory structure पर।
+
+Audit-08 Status
+
+✅ Completed
+
+Running Overall Score
 Area	Score
 Repository Root	57
 Front Matter	79
@@ -202,19 +179,12 @@ Chapters 3–4	84
 Chapters 5–6	86.5
 Annexes	88
 Metadata	85
-Editor-in-Chief Decision
+Repository Engineering	92
+अगला Audit
 
-Metadata architecture मजबूत है। सबसे बड़ा मुद्दा structure नहीं, बल्कि synchronization है।
+अब केवल दो audits बचे हैं:
 
-विशेष रूप से:
+Audit-09 — Cross-Reference & Editorial Consistency
+Audit-10 — Final RC-1 Readiness Report
 
-METADATA.yaml को वर्तमान governance model के साथ synchronize करना।
-Requirement ID policy को पूरे repository में एकसमान करना।
-Work Order traceability को CHANGELOG और SESSION_LOG में जोड़ना।
-Audit-07 Status
-
-✅ FULLY COMPLETED
-
-यह पहला audit है जिसमें Metadata folder की सभी वास्तविक files का content पढ़कर review किया गया है।
-
-अब अगला चरण होगा Audit-08 — Repository Engineering, जहाँ पूरा repository (folder hierarchy, naming conventions, build readiness, generated site, duplication, navigation, maintainability) engineering दृष्टिकोण से audit किया जाएगा।
+ये दोनों audits पूरे repository को एक इकाई के रूप में देखेंगे और अंतिम release readiness का निर्णय देंगे।
