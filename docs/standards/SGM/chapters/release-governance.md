@@ -4,8 +4,8 @@ Releasing a Standard is the final step in the governance process, making the nor
 
 ## 5.1 Publication Artifacts
 A Publication Artifact is any generated document (such as a PDF, HTML page, or Markdown file) that represents the approved Standard. (See Annex A: [Glossary](../annexes/glossary.md) for detailed definitions of Canonical Source, Publication Artifact, and Release).
-- All Publication Artifacts SHALL be directly generated from the Canonical Source without manual alteration.
-- Any discrepancy between the Canonical Source and a Publication Artifact SHALL be resolved in favor of the Canonical Source.
+- [SGM-REQ-005] All Publication Artifacts SHALL be directly generated from the Canonical Source without manual alteration.
+- Any discrepancy between the Canonical Source and a Publication Artifact SHALL be resolved in favor of the Canonical Repository.
 
 ## 5.2 The Release Process and Publication Gates
 A Release is the formal act of publishing a new Edition, Version, or Revision of a Standard.

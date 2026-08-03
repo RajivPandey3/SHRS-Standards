@@ -1,176 +1,145 @@
 SHRS Repository Audit v1.0
-Audit-08 — Repository Engineering
-1. Repository Architecture
-Score: 96 /100
+Audit-09 — Cross-Reference & Editorial Consistency
+Overall Score
+
+83 /100
+
+Repository editorial रूप से अच्छी स्थिति में है, लेकिन RC-1 से पहले consistency पर एक समर्पित pass आवश्यक होगा।
+
+1. Cross-Reference Integrity
+Score: 86 /100
 ✅ Strengths
+Internal chapter references मौजूद हैं।
+कम से कम एक relative Markdown link (जैसे ../chapters/...) उपयोग किया गया है।
+Requirement Registry से RTM की ओर link भी मौजूद है।
+Findings
+अधिकांश references "Chapter X" के रूप में लिखे गए हैं, लेकिन सभी जगह clickable links नहीं हैं।
+कुछ chapters केवल chapter number का उल्लेख करते हैं, जबकि कुछ relative Markdown links का उपयोग करते हैं।
 
-Repository स्पष्ट रूप से layer-based है:
+Recommendation: पूरे repository में cross-reference की एक ही policy अपनाओ:
 
-README.md
-LICENSE.md
-docs/
-reviews/
-tools/
-mkdocs.yml
-site/
+या केवल chapter references,
+या chapter reference + relative Markdown link.
 
-यह separation of concerns अच्छी है।
+दोनों styles का मिश्रण न रखो।
 
-🟠 Finding
+2. Editorial Terminology
+Score: 81 /100
 
-पूरा .git/ directory ZIP में शामिल है।
+मैंने वास्तविक files में देखा कि:
 
-यदि यह source archive दूसरों के साथ साझा करने के लिए है, तो .git/ को शामिल करने की आवश्यकता नहीं होती। GitHub repository स्वयं history रखती है।
+SHALL और MUST दोनों उपयोग हो रहे हैं।
+कुछ annexes में भी दोनों keywords साथ दिखाई देते हैं।
 
-2. Documentation Architecture
-Score: 98 /100
+यह गलत नहीं है, लेकिन एक editorial policy आवश्यक है।
 
-SGM का layout:
+यदि SGM की policy है कि normative requirements मुख्यतः SHALL से लिखी जाएँ, तो MUST का उपयोग केवल विशेष rationale के साथ होना चाहिए।
 
-front-matter/
-chapters/
-annexes/
-metadata/
-build/
-index.md
+3. Capitalization Consistency
+Score: 84 /100
+Strengths
 
-यह सबसे मजबूत हिस्सों में से एक है।
+Defined terms सामान्यतः consistent हैं।
+
+Findings
+
+Glossary और chapters के बीच capitalization की पूर्ण consistency पर अभी एक pass आवश्यक है, विशेषकर:
+
+Governance Record
+Work Order
+Canonical Repository
+Publication Authority
+4. Internal Linking
+Score: 88 /100
+
+Repository में relative links का उपयोग शुरू हो चुका है।
+
+यह अच्छी दिशा है।
 
 Recommendation
 
-build/ में एक README.md जोड़ सकते हो जिसमें लिखा हो कि generated artifacts यहाँ रखे जाएँगे।
+Index page से:
 
-3. Multi-Standard Readiness
-Score: 93 /100
+Chapters
+Annexes
+Front Matter
 
-ZIP में केवल SGM ही नहीं, KPM standard भी मौजूद है।
+सभी के direct links होने चाहिए।
 
-यह दिखाता है कि repository multiple standards host करने की दिशा में डिज़ाइन हो रही है।
+5. Requirement Traceability
+Score: 79 /100
 
-Recommendation
+RTM मौजूद है।
 
-भविष्य में docs/standards/index.md बनाकर सभी standards की सूची देना उपयोगी होगा।
+Requirement Registry मौजूद है।
 
-4. Build System
+लेकिन Chapters 1–6 में requirements अभी systematic IDs (SGM-REQ-xxx) के साथ नहीं जुड़ी हैं।
+
+यह WO-P04 का मुख्य कार्य होगा।
+
+6. Editorial Voice
 Score: 90 /100
 
-mkdocs.yml मौजूद है।
+पूरे repository में tone काफी consistent है:
 
-site/ directory भी है।
+formal
+standards-oriented
+repository-centric
 
-🟠 Finding
+यह बड़ी उपलब्धि है।
 
-यदि site/ generated output है, तो यह स्पष्ट policy होनी चाहिए कि:
+Critical Findings
+🔴 EC-001
 
-क्या इसे Git में version किया जाएगा?
-या केवल CI/CD से generate होगा?
+RFC keyword policy पूरी तरह normalize नहीं हुई।
 
-यह निर्णय repository documentation में दर्ज होना चाहिए।
+Observed:
 
-5. Naming Conventions
-Score: 94 /100
+SHALL
+MUST
 
-अधिकांश filenames consistent हैं:
+दोनों का मिश्रण।
 
-governance-principles.md
-governance-records.md
-release-governance.md
-Minor Finding
+🟠 EC-002
 
-KPM chapters:
+Cross-reference style एकरूप नहीं है।
 
-chapter-11-publication.md
+कुछ स्थानों पर:
 
-जबकि SGM में descriptive names हैं।
+"Chapter 5"
 
-यदि सभी standards एक ecosystem का हिस्सा हैं, तो naming convention एक policy के अनुसार होनी चाहिए।
+और कुछ पर:
 
-6. Reviews Directory
-Score: 87 /100
+relative Markdown link
+🟠 EC-003
 
-reviews/ directory का होना अच्छा governance decision है।
+Index pages (docs/index.md, SGM/index.md) अभी navigation hubs नहीं बने हैं।
 
-Recommendation
+Strongest Area
 
-Review files के लिए एक naming convention तय करें, जैसे:
+Editorial voice।
 
-AUDIT-01.md
-AUDIT-02.md
-RC1-REVIEW.md
-7. Tools Directory
-Score: 85 /100
+पूरे repository में tone लगभग समान है।
 
-Directory मौजूद है।
+Weakest Area
 
-Recommendation
+Requirement traceability linkage।
 
-यदि tools scripts रखेंगे, तो:
+Infrastructure मौजूद है, लेकिन chapters से linkage अभी अधूरा है।
 
-README.md
-purpose
-execution notes
-
-जोड़ें।
-
-8. Repository Scalability
-Score: 95 /100
-
-Structure आसानी से:
-
-SGM
-KPM
-SEG
-SAO
-SRS
-
-को host कर सकती है।
-
-यह design future growth के लिए उपयुक्त है।
-
-Engineering Findings
-🟠 RE-001
-
-.git/ folder archive में शामिल है।
-
-यदि यह internal backup है तो ठीक है।
-
-यदि public distribution archive है, तो इसे exclude करना बेहतर रहेगा।
-
-🟠 RE-002
-
-site/ generated content की governance policy document करनी चाहिए।
-
-🟡 RE-003
-
-KPM और SGM के filename conventions को harmonize करना चाहिए।
-
-Engineering Scores
+Scores
 Category	Score
-Repository Architecture	96
-Documentation Architecture	98
-Multi-Standard Readiness	93
-Build System	90
-Naming Conventions	94
-Reviews Structure	87
-Tools Structure	85
-Scalability	95
-Overall Engineering Score
+Cross References	86
+Terminology	81
+Capitalization	84
+Internal Linking	88
+Requirement Traceability	79
+Editorial Voice	90
+Overall Editorial Consistency
 
-92 /100
+83 /100
 
-Editor-in-Chief Decision
-
-Repository engineering मजबूत है।
-
-यह अब केवल documentation repository नहीं लगती; इसकी architecture एक standards repository के रूप में विकसित हो चुकी है।
-
-मुख्य सुधार अब content governance और editorial consistency पर होंगे, न कि directory structure पर।
-
-Audit-08 Status
-
-✅ Completed
-
-Running Overall Score
+Repository Running Score
 Area	Score
 Repository Root	57
 Front Matter	79
@@ -180,11 +149,32 @@ Chapters 5–6	86.5
 Annexes	88
 Metadata	85
 Repository Engineering	92
-अगला Audit
+Editorial Consistency	83
+Editor-in-Chief Decision
 
-अब केवल दो audits बचे हैं:
+Repository अब उस अवस्था में है जहाँ नई सामग्री जोड़ने की बजाय consistency pass अधिक मूल्य देगा।
 
-Audit-09 — Cross-Reference & Editorial Consistency
-Audit-10 — Final RC-1 Readiness Report
+मुख्य सुधार:
 
-ये दोनों audits पूरे repository को एक इकाई के रूप में देखेंगे और अंतिम release readiness का निर्णय देंगे।
+RFC keyword policy (SHALL बनाम MUST) स्पष्ट करना।
+Cross-reference style standardize करना।
+Glossary को सभी defined terms का एकमात्र canonical source बनाना।
+Requirement IDs को chapters से जोड़ना।
+Audit-09 Status
+
+✅ Completed
+
+अगला और अंतिम चरण
+
+अब केवल Audit-10 — Final RC-1 Readiness Report शेष है।
+
+वह सबसे महत्वपूर्ण audit होगा। उसमें मैं पूरी repository का अंतिम मूल्यांकन दूँगा:
+
+Overall Repository Score (/100)
+RC-1 Readiness
+Critical Issues
+Major Issues
+Minor Issues
+Mandatory Fixes
+Recommended Fixes
+Go / No-Go decision for SGM Edition 1 Release Candidate.

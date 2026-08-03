@@ -6,7 +6,7 @@ The purpose of the Standards Governance Model (SGM) is to establish the constitu
 ## 1.2 Scope
 This standard covers:
 - The lifecycle of all SHRS documentation and Knowledge Packages.
-- The governance structure and roles responsible for maintaining the canonical repository.
+- The governance structure and roles responsible for maintaining the Canonical Repository.
 - The processes for proposing, reviewing, and approving changes.
 - The documentation of governance records and decisions.
 
@@ -26,10 +26,10 @@ A Knowledge Package or Standard is considered conformant if it strictly follows 
 
 ## 1.6 Normative References
 The following referenced documents are indispensable for the application of this document.
-- SGM Annex B: Editorial Style Guide
+- SGM Annex B: [Editorial Style Guide](../annexes/editorial-style-guide.md)
 - KPM-BL-001 (Knowledge Package Publication Model)
 - KRA-BL-001
 - KAM-BL-001
 
 ## 1.7 Terms & Definitions
-For the purposes of this document, the terms and definitions given in SGM Annex A (Glossary) and the Terminology Registry SHALL apply.
+For the purposes of this document, the terms and definitions given in SGM Annex A: [Glossary](../annexes/glossary.md) and the Terminology Registry SHALL apply.

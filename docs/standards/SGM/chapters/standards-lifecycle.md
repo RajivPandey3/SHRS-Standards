@@ -1,6 +1,6 @@
 # Chapter 4 — Standards Lifecycle
 
-Every SHRS Standard SHALL follow a strictly controlled Lifecycle State from its inception to withdrawal. This ensures that only verified, peer-reviewed, and approved content is published.
+[SGM-REQ-004] Every SHRS Standard SHALL follow a strictly controlled Lifecycle State from its inception to withdrawal. This ensures that only verified, peer-reviewed, and approved content is published.
 
 ## 4.1 Lifecycle States
 

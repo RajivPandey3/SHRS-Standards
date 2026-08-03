@@ -9,10 +9,10 @@ The SHRS framework operates on a philosophy of "Code-as-Law" for documentation. 
 All standards and modifications SHALL derive their authority from formal, documented governance decisions. Ad-hoc or untraceable changes are strictly prohibited.
 
 ### 2.2.2 Traceability
-Every change made to the canonical repository SHALL be linked to a specific Work Order, Change Request, or Governance Record.
+[SGM-REQ-001] Every change made to the Canonical Repository SHALL be linked to a specific Work Order, Change Request, or Governance Record.
 
 ### 2.2.3 Canonical Source
-The `main` branch of the official SHRS repository SHALL be considered the single source of truth. Any derivative works or local copies SHALL NOT be considered normative.
+[SGM-REQ-002] The `main` branch of the official SHRS repository SHALL be considered the single source of truth (Canonical Repository). Any derivative works or local copies SHALL NOT be considered normative.
 
 ### 2.2.4 Transparent Governance
 All governance actions, including approvals and rejections, SHALL be publicly recorded in the `SESSION_LOG.md` or `DECISIONS.md` metadata files.
@@ -27,4 +27,4 @@ Decisions to approve or reject a standard SHALL be based on demonstrable complia
 The structural and semantic integrity of the repository SHALL be maintained at all times. Automation and CI/CD pipelines SHOULD be utilized to enforce these rules.
 
 ## 2.3 Editorial Consistency
-Throughout this standard, the keyword "SHALL" indicates a mandatory requirement. The usage of RFC 2119 keywords SHALL be consistent with the rules defined in Annex B (Editorial Style Guide).
+Throughout this standard, the keyword "SHALL" indicates a mandatory requirement. The usage of RFC 2119 keywords SHALL be consistent with the rules defined in Annex B: [Editorial Style Guide](../annexes/editorial-style-guide.md).

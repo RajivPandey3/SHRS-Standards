@@ -17,7 +17,7 @@ The Approval Authority is responsible for making final Governance Decisions rega
 The Publication Authority oversees the final steps of releasing a Standard. They verify that all Governance Evidence is present before allowing a Release to pass through the Publication Gate.
 
 ## 3.2 Decision Making Process
-All decisions impacting normative content SHALL be documented as a Governance Record. No single role SHALL bypass the established Governance Gates without following the defined Change Request and Work Order procedures.
+All decisions impacting normative content SHALL be documented as a Governance Record. [SGM-REQ-003] No single role SHALL bypass the established Governance Gates without following the defined Change Request and Work Order procedures.
 
 ## 3.3 Voting and Dispute Resolution
 Governance Decisions at the Approval Authority level SHALL require a consensus or a defined supermajority (e.g., two-thirds) to pass a Governance Gate.
