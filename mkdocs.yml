@@ -50,6 +50,10 @@ nav:
           - ADR-0001 (Founding Charter): architecture/ADRs/ADR-0001-founding-charter.md
           - ADR-0002 (Repository Architecture): architecture/ADRs/ADR-0002-repository-architecture.md
           - ADR-0003 (The SHRS Vision): architecture/ADRs/ADR-0003-shrs-vision.md
+  - SHRS Ecosystem Constitution (SEC):
+      - Index: standards/SEC/index.md
+      - Articles:
+          - Article 1 (Hierarchy): standards/SEC/chapters/article-1-hierarchy.md
   - Standards Governance Model (SGM):
       - Front Matter:
           - Preface: standards/SGM/front-matter/preface.md
