@@ -4,6 +4,7 @@ This directory hosts the canonical standards for the SHRS framework.
 
 ## Active Standards
 - **[SGM - Standards Governance Model](SGM/index.md)**: The foundational governance architecture for the repository.
+- **[SEG - Standards Editorial Guide](SEG/index.md)**: The mandatory style guide for language, formatting, and structural design across all standards.
 - **[KPM - Knowledge Package Publication Model](KPM/chapters/publication.md)**: The standard for publishing knowledge packages.
 
 ## Site Generation Policy

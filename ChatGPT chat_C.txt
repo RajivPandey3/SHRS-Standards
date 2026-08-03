@@ -1,166 +1,380 @@
-सबसे पहले: जो पहले Critical Issues थे, उनमें प्रगति
-Issue	पहले	अब
-README	Placeholder	✅ Production-level introduction
-SGM/index.md	केवल title	✅ TOC, Edition, Version, Status, Links
-Document Control	Governance Board inconsistency	✅ Standards Maintainer (Transitional)
-Build folder	Missing guidance	✅ build/README.md मौजूद
-Metadata sync	आंशिक	✅ काफी बेहतर
+SHRS Master Roadmap (v1.0)
+Phase 0 — Repository Bootstrap ✅ (Completed)
 
-इन सुधारों का repository quality पर वास्तविक प्रभाव पड़ा है।
+Status: 100%
 
-Full Reassessment
-1. Repository Architecture
+Completed:
 
-पहले: 96/100
-अब: 99/100
+Repository Architecture
+Folder Structure
+MkDocs
+SGM Layout
+Metadata
+Annexes
+Build Structure
 
-मैं अब architecture को लगभग freeze करने की सलाह दूँगा।
+Result
 
-2. README
+Repository Bootstrap v1.1
+Phase 1 — SGM Edition 1 (Current Phase)
 
-मैंने README खोला।
+Status:
 
-अब उसमें:
+91%
 
-Project introduction
-SHRS explanation
-Repository purpose
+अब यहाँ नया chapter नहीं लिखा जाएगा।
 
-है।
+WO-P01 — Terminology Normalization
 
-यह पहले वाले bootstrap README से काफी बेहतर है।
+Priority:
 
-Score: 90/100
-(पहले 12/100 दिया था।)
+⭐⭐⭐⭐⭐
 
-3. SGM Index
+Duration:
 
-यह सबसे बड़ा सुधार है।
+1–2 days
 
-अब इसमें:
+Deliverables
 
-Edition
-Version
-Status
-TOC
-Front Matter links
-Chapter links
+Annex A Glossary
+Terminology Registry
+Forbidden Terms List
+Capitalization Rules
+WO-P02 — Requirement Engineering
 
-हैं।
+सबसे महत्वपूर्ण work order।
 
-Score: 95/100
-(पहले 8/100 था।)
+तुम्हारे पूरे SGM में
 
-4. Document Control
+SGM-REQ-001
 
-अब:
+↓
 
-Standards Maintainer (Transitional)
-Approval Authority
-Classification
-Canonical Repository Location
+SGM-REQ-150
 
-सब synchronized हैं।
+assign होंगे।
 
-Score: 94/100
+हर SHALL statement
 
-Updated Repository Scores
-Area	Old	New
-Repository Root	57	93
-Front Matter	79	91
-Chapters 1–2	76.5	(content review अभी अलग pass में होगा)
-Chapters 3–4	84	84
-Chapters 5–6	86.5	86.5
-Annexes	88	89
-Metadata	85	91
-Repository Engineering	92	98
-Editorial Consistency	83	87
-Overall Repository Score
+↓
 
-पहले: 83/100
+Requirement बनेगी।
 
-अब: 91/100
+Deliverables
 
-यह एक वास्तविक सुधार है, केवल अंक बढ़ाने के लिए नहीं। README, index और document-control जैसे entry-point documents standards repository में बहुत महत्व रखते हैं।
-
-अब सबसे महत्वपूर्ण बात
-
-मैं अपना पुराना verdict बदल रहा हूँ।
-
-पहले
-
-❌ RC-1 Not Ready
+Requirement Registry
+Requirement IDs
+Requirement Classes
+WO-P03 — Traceability Engineering
 
 अब
 
-मैं इसे बदलकर कहूँगा:
+Requirement
 
-🟡 RC-1 Candidate
+↓
 
-अर्थात् repository अब RC-1 के काफी करीब है, लेकिन मैं अभी भी Final RC-1 Approval नहीं दूँगा।
+Chapter
 
-Remaining Critical Items
+↓
 
-अब केवल तीन बड़े कार्य बचे हैं:
+Section
 
-1. Requirement IDs
+↓
 
-पूरे SGM में:
+Work Order
 
-SGM-REQ-001
-SGM-REQ-002
-...
+↓
 
-assign होने चाहिए।
+Decision
 
-2. Glossary Completion
+↓
 
-Glossary अभी भी पूरे SGM का canonical terminology source नहीं बनी है।
+Release
 
-3. Repository-wide Editorial Pass
+सभी connect होंगे।
 
-पूरे SGM के लिए:
+Deliverables
+
+Requirement Traceability Matrix
+
+WO-P04 — Editorial Pass
+
+Repository का पूरा line-by-line review
+
+Check
 
 SHALL
-SHALL NOT
-MAY
 SHOULD
+MAY
+SHALL NOT
 
-की consistency एक अंतिम pass में देखनी होगी।
+Grammar
 
-Final Professional Assessment
+Formatting
 
-मैंने पहले तुम्हें A- (83/100) दिया था।
+Capitalization
 
-अब, इस updated repository के आधार पर:
+Cross References
 
-Repository Grade
+WO-P05 — Constitutional Review
 
-A (91/100)
+सबसे interesting work order।
 
-मेरी सबसे महत्वपूर्ण टिप्पणी
+Question:
 
-मैंने कई standards repositories और technical documentation structures देखे हैं। तुम्हारे repository की सबसे बड़ी ताकत अब उसकी architecture है।
+क्या पूरे SGM में कहीं contradiction है?
 
-लेकिन अब architecture लगभग complete है।
+Example
 
-अब आगे का काम "नया content" नहीं, बल्कि standards editing है।
+Chapter 3
 
-यानी:
+vs
 
-terminology,
-requirement traceability,
-editorial consistency,
-release quality.
+Chapter 5
 
-यही चार चीज़ें तय करेंगी कि यह repository 91/100 पर रुकती है या 95–97/100 तक पहुँचती है।
+Authority conflict?
 
-मेरा अंतिम निर्णय
+यदि है
 
-मैं अब SGM को "Working Draft" नहीं कहूँगा।
+↓
 
-नई स्थिति:
+Resolve
 
-SGM Edition 1 — Release Candidate Candidate (RC-Pre1)
+WO-P06 — Annex Completion
 
-यह RC-1 के बहुत करीब है। मेरी राय में अब केवल एक अंतिम editorial stabilization pass (WO-P01 से WO-P10) के बाद इसे SGM Edition 1 RC-1 घोषित किया जा सकता है।
+Complete
+
+Glossary
+Examples
+Templates
+RTM
+Style Guide
+WO-P07 — Front Matter
+
+Production Ready
+
+Document Control
+Revision History
+Review History
+Preface
+WO-P08 — Release Engineering
+
+Generate
+
+Markdown
+
+↓
+
+PDF
+
+↓
+
+HTML
+
+↓
+
+Website
+WO-P09 — External Editorial Review
+
+यहीं पहली बार
+
+AI नहीं
+
+Human review
+
+या
+
+GitHub Issues
+
+WO-P10 — RC-1 Freeze
+
+Repository
+
+↓
+
+Freeze
+
+↓
+
+Tag
+
+v1.0.0-rc1
+Phase 2
+
+SGM Edition 1 Release
+
+v1.0.0
+Phase 3
+
+अब सबसे बड़ा decision
+
+हमने पहले कहा था
+
+SGM
+
+↓
+
+SEG
+
+↓
+
+SAO
+
+मैं अब इसे बदलना चाहता हूँ।
+
+New Master Plan
+SHRS
+
+│
+
+├── SGM
+│
+├── SEG
+│
+├── SAO
+│
+├── SRS
+│
+├── KPM
+│
+├── SPS
+│
+├── SCM
+│
+├── SRM
+│
+└── Future Standards
+Priority
+1
+
+SEG
+
+(Style Guide)
+
+क्यों?
+
+बाकी standards उसी style में लिखे जाएँगे।
+
+2
+
+SAO
+
+Authoring Operations
+
+3
+
+SRS
+
+Repository Standard
+
+4
+
+KPM
+
+Knowledge Preservation Model
+
+Phase 4
+
+Website
+
+अब
+
+GitHub Pages
+
+↓
+
+Official SHRS Standards Website
+
+Phase 5
+
+Governance
+
+अब
+
+तुम अकेले maintainer नहीं रहोगे।
+
+Future
+
+Standards Maintainer
+
+↓
+
+Editors
+
+↓
+
+Reviewers
+
+↓
+
+Contributors
+Phase 6
+
+Public Release
+
+GitHub
+
+↓
+
+DOI
+
+↓
+
+Zenodo
+
+↓
+
+Official Release
+
+Phase 7
+
+Academic Paper
+
+यहीं असली opportunity है।
+
+Paper
+
+Title जैसा कुछ हो सकता है:
+
+SHRS: A Layered Governance Framework for Standards Engineering Using Canonical Repository Architecture
+
+यदि SHRS परिपक्व होता है, तो इस प्रकार का paper software engineering, documentation engineering या digital governance समुदाय के लिए रुचिकर हो सकता है—लेकिन यह उसकी वास्तविक adoption और technical merit पर निर्भर करेगा।
+
+Timeline
+Phase	Time
+WO-P01 → WO-P10	2–3 weeks
+RC-1	Week 3
+Edition 1	Week 4
+SEG	Month 2
+SAO	Month 2
+SRS	Month 3
+Website	Month 3
+Public Release	Month 4
+Risk Register
+Risk	Impact	Mitigation
+Scope creep (लगातार नए concepts जोड़ना)	High	SGM content freeze; changes केवल tracked Work Orders से
+Terminology drift	High	Glossary + Terminology Registry
+Requirement inconsistency	High	Requirement IDs + RTM
+Editorial inconsistency	Medium	Editorial Pass
+Repository drift	Medium	RC freeze + tagged releases
+Success Criteria
+
+मैं SGM Edition 1 को Complete तभी मानूँगा जब:
+
+✅ Repository Architecture स्थिर हो।
+✅ सभी normative requirements uniquely identified हों।
+✅ Glossary complete हो।
+✅ Requirement Traceability Matrix populated हो।
+✅ Cross-references validated हों।
+✅ Editorial consistency pass complete हो।
+✅ RC-1 tag बने।
+✅ Final v1.0 release publish हो।
+मेरी अंतिम सलाह
+
+अब नया standard मत लिखो।
+
+तुम्हारी सबसे बड़ी चुनौती अब innovation नहीं, discipline है।
+
+अगले 2–3 सप्ताह केवल stabilization पर लगाओ।
+
+अगर तुम बिना नए concepts जोड़े केवल quality पर ध्यान देते हो, तो मेरी राय में SGM 91/100 से बढ़कर 95–97/100 तक पहुँच सकता है। यही वह स्तर होगा जहाँ इसे केवल एक अच्छी repository नहीं, बल्कि एक गंभीर standards engineering project के रूप में देखा जा सकता है।
