@@ -1,131 +1,178 @@
 # Chapter 2 — Governance Principles
 
-## 2.1 Purpose
+## 2.1 Foundational Governance Philosophy
 
-This chapter establishes the fundamental governance principles that SHALL guide the development, maintenance, review, approval, publication, and evolution of all standards produced under the Standardized Hierarchical Repository System (SHRS).
+The SHRS Standards Governance Model (SGM) is founded upon a set of constitutional governance principles that establish the normative philosophy for the creation, maintenance, review, approval, publication, and evolution of standards within the Standardized Hierarchical Repository System (SHRS).
 
-These principles provide the constitutional basis for governance decisions and SHALL be applied consistently throughout the standards lifecycle.
+These principles SHALL govern every governance activity performed under SHRS and SHALL serve as the basis for interpreting all normative provisions defined by this standard.
 
----
-
-## 2.2 General Principles
-
-All governance activities performed under SHRS SHALL be guided by the following principles:
-
-- Transparency
-- Accountability
-- Traceability
-- Consistency
-- Reproducibility
-- Editorial Independence
-- Version Integrity
-- Controlled Evolution
-
-These principles collectively ensure that standards remain reliable, maintainable, and suitable for long-term governance.
+Where ambiguity exists, governance decisions SHALL be guided by these principles unless superseded by an explicit normative requirement.
 
 ---
 
-## 2.3 Transparency
+## 2.2 Constitutional Principles
 
-Governance processes SHALL be transparent.
+The governance framework established by this standard SHALL be founded upon the following constitutional principles:
 
-Decisions affecting normative standards SHALL be documented and made available through the canonical repository.
+1. Legitimacy
+2. Accountability
+3. Transparency
+4. Traceability
+5. Integrity
+6. Consistency
+7. Reproducibility
+8. Editorial Independence
+9. Controlled Evolution
+10. Evidence-Based Decision Making
 
-Governance decisions SHOULD include sufficient justification to enable future review and interpretation.
+Each principle defined in this chapter constitutes a normative governance requirement unless explicitly stated otherwise.
+
+---
+
+## 2.3 Legitimacy
+
+All governance authority SHALL originate from formally established governance processes defined by SHRS.
+
+No individual, committee, or governing body SHALL exercise authority beyond the scope explicitly assigned by this standard.
+
+Governance actions performed outside the approved governance framework SHALL be considered invalid unless subsequently ratified through the formal governance process.
 
 ---
 
 ## 2.4 Accountability
 
-Every governance action SHALL have an identified responsible authority.
+Every governance activity SHALL identify a responsible authority.
 
-Responsibilities SHALL be assigned to clearly defined governance roles.
+Governance decisions SHALL remain attributable to the individual or governance body responsible for their approval.
 
-Approvals, reviews, and publications SHALL remain traceable to the responsible authority.
+Responsibilities SHALL be documented and preserved throughout the standards lifecycle.
 
 ---
 
-## 2.5 Traceability
+## 2.5 Transparency
 
-Every normative modification SHALL be traceable.
+Governance processes SHALL be transparent.
 
-Traceability SHALL include:
+Normative decisions, approvals, revisions, and publications SHALL be documented within the canonical repository.
 
+Where confidentiality is not explicitly required, governance records SHOULD remain accessible for independent review.
+
+Transparency SHALL support public confidence in the governance process without compromising the integrity or security of controlled information.
+
+---
+
+## 2.6 Traceability
+
+Every normative modification SHALL be fully traceable.
+
+Traceability SHALL include, where applicable:
+
+- originating work order;
 - revision history;
-- work order reference;
+- review record;
 - approval record;
 - publication record; and
-- requirement traceability where applicable.
+- requirement traceability.
 
-No normative change SHALL be introduced without an auditable history.
-
----
-
-## 2.6 Consistency
-
-Governance activities SHALL preserve consistency across all SHRS standards.
-
-Normative terminology, document structure, and governance processes SHALL remain consistent unless formally revised through the governance process.
+No normative modification SHALL be introduced without an auditable governance history.
 
 ---
 
-## 2.7 Reproducibility
+## 2.7 Integrity
 
-Publication processes SHALL be reproducible.
+The integrity of standards, governance records, and publication artifacts SHALL be preserved throughout the standards lifecycle.
 
-The canonical repository source SHALL be sufficient to regenerate all official publication artifacts without loss of normative content.
+Governance activities SHALL protect standards from unauthorized modification, undocumented revisions, or inconsistent publication.
 
-Generated publication artifacts SHALL faithfully represent the canonical source.
-
----
-
-## 2.8 Editorial Independence
-
-Technical review and editorial review SHALL remain independent activities.
-
-Editorial improvements SHALL NOT alter normative intent.
-
-Any modification affecting normative meaning SHALL follow the formal governance process.
+The canonical repository SHALL constitute the authoritative source of governance truth.
 
 ---
 
-## 2.9 Version Integrity
+## 2.8 Consistency
 
-Each published edition SHALL represent a stable governance baseline.
+Governance activities SHALL preserve consistency across the SHRS standards ecosystem.
 
-Published editions SHALL remain immutable.
+Normative terminology, governance procedures, document structures, and editorial conventions SHALL remain consistent unless modified through an approved governance process.
 
-Subsequent changes SHALL be introduced only through controlled revisions or future editions.
-
----
-
-## 2.10 Controlled Evolution
-
-The governance framework SHALL support continuous improvement while preserving long-term stability.
-
-Changes SHALL be introduced only through approved governance procedures.
-
-Backward compatibility SHOULD be preserved where practical.
+Consistency SHALL support interoperability among SHRS standards.
 
 ---
 
-## 2.11 Governance Decision Hierarchy
+## 2.9 Reproducibility
 
-Where governance principles appear to conflict, the following order of precedence SHALL apply:
+Official publications SHALL be reproducible from the canonical repository source.
 
-1. Normative requirements.
+Equivalent source inputs SHALL produce equivalent publication outputs.
+
+Generated publication artifacts SHALL faithfully represent the approved canonical source.
+
+---
+
+## 2.10 Editorial Independence
+
+Editorial review and technical review SHALL remain independent governance activities.
+
+Editorial modifications SHALL improve clarity, consistency, and readability without altering normative meaning.
+
+Any modification affecting normative intent SHALL be processed through the applicable governance procedure.
+
+---
+
+## 2.11 Controlled Evolution
+
+The governance framework SHALL support continuous improvement while preserving constitutional stability.
+
+Standards MAY evolve through approved revisions, amendments, corrigenda, or future editions.
+
+Evolution SHALL remain controlled, documented, and fully traceable.
+
+Backward compatibility SHOULD be preserved whenever practical and consistent with the objectives of the revision.
+
+---
+
+## 2.12 Evidence-Based Decision Making
+
+Governance decisions SHALL be supported by documented evidence.
+
+Evidence MAY include:
+
+- technical analyses;
+- review findings;
+- implementation experience;
+- stakeholder feedback;
+- formal ballots; or
+- approved governance recommendations.
+
+Decisions lacking adequate supporting evidence SHOULD be deferred until sufficient justification is available.
+
+---
+
+## 2.13 Resolution of Principle Conflicts
+
+Where two or more governance principles appear to conflict, resolution SHALL follow the following order of precedence:
+
+1. Explicit normative requirements.
 2. Approved governance decisions.
-3. Governance principles.
+3. Constitutional governance principles.
 4. Editorial guidance.
 5. Informative material.
 
+Interpretations SHALL preserve the intent, integrity, and consistency of this standard.
+
 ---
 
-## 2.12 Compliance
+## 2.14 Compliance
 
-Organizations implementing SHRS governance SHALL demonstrate compliance with these principles throughout the standards lifecycle.
+Organizations implementing SHRS governance SHALL demonstrate compliance with the constitutional principles established by this chapter.
 
-Any deviation SHALL be documented, justified, and formally approved through the applicable governance process.
+Any deviation from these principles SHALL:
+
+- be explicitly documented;
+- include technical or governance justification;
+- identify the approving authority; and
+- remain traceable within the governance record.
+
+Failure to satisfy mandatory governance principles SHALL constitute non-conformance unless formally approved through the governance process.
 
 ---
 
