@@ -44,6 +44,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Architecture:
+      - Architecture Decision Records (ADRs): architecture/ADRs/index.md
+      - Decisions:
+          - ADR-0001 (Founding Charter): architecture/ADRs/ADR-0001-founding-charter.md
   - Standards Governance Model (SGM):
       - Front Matter:
           - Preface: standards/SGM/front-matter/preface.md
