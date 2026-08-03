@@ -21,8 +21,8 @@ Standards Governance Model (SGM)
 - [Chapter 2: Governance Principles](chapters/governance-principles.md)
 - [Chapter 3: Governance Structure](chapters/governance-structure.md)
 - [Chapter 4: Standards Lifecycle](chapters/standards-lifecycle.md)
-- [Chapter 5: Governance Records](chapters/governance-records.md)
-- [Chapter 6: Release Governance](chapters/release-governance.md)
+- [Chapter 5: Publication Governance](chapters/release-governance.md)
+- [Chapter 6: Governance Records](chapters/governance-records.md)
 
 ### 3. Annexes
 - [Annex A: Glossary](annexes/glossary.md)
