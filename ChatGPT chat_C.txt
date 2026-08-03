@@ -1,151 +1,133 @@
 SHRS Repository Audit v1.0
-Audit-05 — Chapter 5 & Chapter 6
-Chapter 5 — Publication Governance
-Overall Score
+Audit-06 — Annexes
+Annex A — Glossary
+Score: 84 /100
+✅ Strengths
+Structure साफ़ है।
+Status स्पष्ट है।
+Canonical terminology का उद्देश्य स्पष्ट लिखा गया है।
+शुरुआत में scope statement अच्छा है।
+🟠 Findings
+अभी glossary में केवल प्रारम्भिक terms हैं; पूरे SGM के defined terms अभी शामिल नहीं हैं।
+TERM IDs glossary entries से जुड़े नहीं हैं।
+Cross-reference (जैसे "Used in: Chapter X") नहीं है।
+Recommendation
 
-84 /100
+RC-1 से पहले Glossary को master terminology source बनाना होगा।
 
-1. Architecture — 90/100 ✅
+Annex B — Editorial Style Guide (SEG)
+Score: 91 /100
+✅ Strengths
+Heading hierarchy स्पष्ट।
+Markdown conventions पर ध्यान दिया गया है।
+Repository-wide editorial consistency की अच्छी शुरुआत है।
+🟠 Findings
+RFC 2119 keyword policy अलग subsection में होनी चाहिए।
+Cross-reference formatting rules और requirement ID formatting भी जोड़नी चाहिए।
 
-Flow स्पष्ट है:
+यह Annex मुझे repository के सबसे अच्छे documents में से एक लगा।
 
-Publication
-Authority
-Artifacts
-Integrity
-Post-Publication
+Annex C — Governance Record Templates
+Score: 88 /100
+✅ Strengths
+Work Order template मौजूद।
+Governance Decision documentation पर ज़ोर।
+Traceability का अच्छा integration।
+🟠 Findings
+Template set अभी सीमित है।
 
-यह Chapter 4 के बाद स्वाभाविक रूप से आता है।
+मैं कम से कम ये templates अपेक्षित मानूँगा:
 
-2. Standards Engineering — 85/100
-Strengths
-Publication Authority अलग परिभाषित है।
-Publication Artifacts का concept मौजूद है।
-Canonical publication का विचार दिखाई देता है।
-Integrity पर ध्यान दिया गया है।
-Weaknesses
+Work Order
+Change Request
+Review Record
+Approval Record
+Publication Record
+Release Record
+Annex D — Lifecycle Examples
+Score: 86 /100
+✅ Strengths
+Examples chapter को समझने में मदद करते हैं।
+Normative text से अलग informative annex के रूप में उचित है।
+🟠 Findings
+केवल minor revision example पर्याप्त नहीं।
+Published → Deprecated → Withdrawn जैसे examples भी होने चाहिए।
+Annex E — Repository Structure Reference
+Score: 94 /100
+✅ Strengths
 
-Repository में Publication Gates उतने स्पष्ट नहीं हैं जितने हमने architecture discussion में तय किए थे।
+यह repository की सबसे मजबूत annexes में से एक है।
 
-यदि Chapter 4 में Governance Gates हैं, तो Chapter 5 में Publication Gates भी उसी rigor से होने चाहिए।
+Directory structure स्पष्ट।
+Canonical Repository concept reinforce होता है।
+Organization बहुत अच्छी है।
+Minor Recommendation
 
-3. Normative Language — 82/100
+Directory tree को code block के रूप में और अधिक complete दिखाया जा सकता है।
 
-अधिकांश requirements "SHALL" के साथ हैं।
+Annex F — Requirement Traceability Matrix (RTM)
+Score: 83 /100
+✅ Strengths
+RTM मौजूद है।
+Columns logical हैं।
+Governance Record linkage का विचार सही है।
+🟠 Findings
 
-फिर भी कुछ स्थानों पर descriptive prose और normative statements एक ही paragraph में मिश्रित हैं।
+अभी matrix largely template stage में है।
 
-RC-1 से पहले इन्हें अलग करना चाहिए।
+RC-1 से पहले इसमें वास्तविक requirements (जैसे SGM-REQ-001...) populate होने चाहिए।
 
-4. Publication Model — 88/100
+Annex Scores
+Annex	Score
+Glossary	84
+Editorial Style Guide	91
+Governance Record Templates	88
+Lifecycle Examples	86
+Repository Structure Reference	94
+Requirement Traceability Matrix	83
+Overall Annex Score
 
-Canonical Source → Publication → Release की दिशा स्पष्ट है।
-
-लेकिन "Release" और "Publication" की definitions Glossary से cross-reference होनी चाहिए।
-
-5. RC-1 Readiness — 82/100
-
-Chapter मजबूत है, लेकिन terminology normalization के बाद और बेहतर होगा।
+88 /100
 
 Major Findings
+🟠 AF-001
 
-🟠 Publication Gates को स्पष्ट और structured बनाया जाए।
+Glossary अभी canonical terminology source बनने के लिए अधूरी है।
 
-🟠 Canonical Source, Publication Artifact और Release की definitions एक centralized glossary से जुड़नी चाहिए।
+🟠 AF-002
 
-Chapter 6 — Governance Records / Evidence & Traceability
-Overall Score
+Requirement Traceability Matrix अभी template है; इसमें वास्तविक requirement mappings नहीं हैं।
 
-89 /100
+🟡 AF-003
 
-यह repository के सबसे मजबूत chapters में से एक है।
+Governance Record Templates का coverage बढ़ाया जा सकता है।
 
-1. Architecture — 93/100 ✅
+Strongest Annexes
 
-Flow बहुत अच्छा है:
+🥇 Repository Structure Reference — 94
 
-Evidence
-Records
-Classification
-Traceability
-Auditability
+🥈 Editorial Style Guide — 91
 
-यह layered governance architecture के अनुरूप है।
+🥉 Governance Record Templates — 88
 
-2. Standards Engineering — 92/100
-Strengths
-Governance Evidence concept स्पष्ट है।
-Repository को evidence source माना गया है।
-Auditability शामिल है।
-Record lifecycle अच्छी तरह व्यवस्थित है।
-3. Traceability Model — 90/100
+Weakest Annex
 
-Traceability एक स्वतंत्र concept के रूप में दिखाई देती है।
+Requirement Traceability Matrix — 83
 
-लेकिन Requirement Traceability Matrix (Annex) से explicit reference जोड़ना RC-1 के लिए उपयोगी होगा।
+यह खराब नहीं है; बस अभी working template है, populated artifact नहीं।
 
-4. Editorial Quality — 86/100
-
-Language consistent है।
-
-कुछ sections में bullet style और sentence style का मिश्रण है; यह editorial normalization का विषय है।
-
-5. RC-1 Readiness — 91/100
-
-यह Chapter वर्तमान repository में सबसे mature chapters में से एक है।
-
-Cross-Chapter Findings
-🟠 Major Finding MF-005
-
-Chapter 5 और Chapter 6 दोनों Glossary पर निर्भर हैं।
-
-लेकिन वर्तमान Glossary अभी skeleton stage में है।
-
-इसलिए terminology linkage अभी अधूरा है।
-
-🟠 Major Finding MF-006
-
-Requirement Traceability Matrix मौजूद है, लेकिन Chapters 5–6 में उसका explicit linkage और मजबूत किया जा सकता है।
-
-Scores
-Chapter	Score
-Chapter 5	84
-Chapter 6	89
-Running Repository Score
+Repository Running Score
 Area	Score
 Repository Root	57
 Front Matter	79
-Chapter 1	74
-Chapter 2	79
-Chapter 3	81
-Chapter 4	87
-Chapter 5	84
-Chapter 6	89
+Chapters 1–2	76.5
+Chapters 3–4	84
+Chapters 5–6	86.5
+Annexes	88
+Editor-in-Chief Decision
 
-Current Running Average: 79/100
+Annex architecture मजबूत है। सबसे बड़ी आवश्यकता content maturity की है, structure की नहीं।
 
-Editor-in-Chief Assessment
-Strongest Chapters
-🥇 Chapter 6 — 89/100
-🥈 Chapter 4 — 87/100
-🥉 Chapter 5 — 84/100
-Chapters Needing Most Work
-Chapter 1
-Chapter 2
-Chapter 3
+Audit-06 Status: ✅ Completed
 
-मुख्य कारण drafting नहीं, बल्कि repository synchronization और terminology normalization हैं।
-
-Audit-05 Status
-
-✅ Completed
-
-अब शेष बड़े audits हैं:
-
-Audit-06 — Annexes
-Audit-07 — Metadata
-Audit-08 — Repository Engineering
-Audit-09 — Cross-Reference & Editorial Consistency
-Audit-10 — Final RC-1 Readiness Report
-
-इन पाँच audits के बाद तुम्हें पूरी repository का एक consolidated 0–100 assessment मिलेगा, जिसमें हर file, हर folder और पूरे project की release readiness का अंतिम निर्णय शामिल होगा।
+अब अगला चरण होगा Audit-07 — Metadata, जहाँ हम CHANGELOG.md, DECISIONS.md, RELEASE_NOTES.md, REQUIREMENT_REGISTRY.md, SESSION_LOG.md और terminology registry जैसी metadata files का review करेंगे। यही audit बताएगा कि repository governance वास्तव में traceable है या अभी केवल documentation स्तर पर है।

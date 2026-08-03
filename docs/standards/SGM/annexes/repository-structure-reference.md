@@ -1,13 +1,21 @@
 # Annex E — Repository Structure Reference
 
-## Status
-**Draft**
+The SHRS Canonical Repository is organized as follows:
 
-This annex defines the mandatory directory structure for the Canonical Repository.
-
-## E.1 Standard Layout
-Every Standard within the Canonical Repository SHALL adhere to the following structure:
-- `/front-matter/`: Contains `preface.md`, `document-control.md`, etc.
-- `/chapters/`: Contains the normative content of the Standard.
-- `/annexes/`: Contains glossary, style guides, and supplementary templates.
-- `/metadata/`: Contains registries, changelogs, and internal tracking files.
+```text
+SHRS-Standards/
+├── .github/
+├── docs/
+│   ├── index.md                 # Main Site Index
+│   └── standards/
+│       ├── SGM/                 # Standards Governance Model
+│       │   ├── front-matter/    # Preface, Document Control, Histories
+│       │   ├── chapters/        # Normative Chapters 1-6
+│       │   ├── annexes/         # Glossaries, Style Guides, Templates
+│       │   ├── metadata/        # Changelogs, Decision Logs, Registries
+│       │   └── index.md         # SGM Standard Index
+│       └── KPM/                 # Knowledge Package Publication Model
+├── mkdocs.yml                   # MkDocs Configuration
+├── README.md                    # Project Repository Root
+└── LICENSE.md                   # MIT License
+```

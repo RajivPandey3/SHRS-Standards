@@ -1,28 +1,27 @@
 # Annex B — Editorial Style Guide (SEG)
 
-## Status
-**Draft**
+This guide defines the formatting and structural rules for all SHRS documents.
 
-This Editorial Style Guide (SEG) defines the mandatory formatting and structural rules for all Markdown files within the SHRS Standards Governance Model (SGM). 
+## B.1 Heading Hierarchy
+- `H1 (#)` SHALL be used only for Document Titles or Chapter Titles.
+- `H2 (##)` SHALL be used for primary sections (e.g., 1.1, 1.2).
+- `H3 (###)` SHALL be used for subsections.
 
-## B.1 Heading Structure
-- **H1 (`#`)**: Reserved strictly for the Chapter Title. There SHALL be only one H1 per file.
-- **H2 (`##`)**: Used for primary sections (e.g., `## 1.1 Purpose`).
-- **H3 (`###`)**: Used for subsections (e.g., `### 1.1.1 Details`).
+## B.2 Normative Language and RFC 2119
+To ensure absolute clarity in requirements, the SHRS repository adopts the keywords defined in RFC 2119.
+- **SHALL**: Indicates an absolute requirement that MUST be followed.
+- **SHALL NOT**: Indicates an absolute prohibition.
+- **SHOULD**: Indicates a strong recommendation, but valid exceptions may exist.
+- **MAY**: Indicates an optional course of action.
 
-## B.2 Capitalization of Defined Terms
-Any term listed in the Glossary (Annex A) MUST be Capitalized exactly as defined whenever used in its normative context (e.g., "The Approval Authority SHALL...").
+## B.3 Markdown Conventions
+- Use standard GitHub Flavored Markdown (GFM).
+- Tables SHALL be formatted properly with aligned columns.
 
-## B.3 Normative Keywords
-RFC 2119 keywords MUST be fully capitalized to indicate requirement levels:
-- **SHALL** / **MUST**: Absolute requirement.
-- **SHOULD**: Highly recommended but not mandatory.
-- **MAY**: Optional.
+## B.4 Cross-Reference Formatting
+- References to other chapters SHALL use relative markdown links (e.g., `[Chapter 5](../chapters/chapter-5.md)`).
+- Cross-references SHALL NOT use absolute URLs.
 
-## B.4 Cross-Referencing
-When referencing another chapter, section, or annex, the reference SHOULD be explicit and, if possible, hyperlinked using relative paths.
-*Example:* `See [Chapter 2](../chapters/governance-principles.md) for details.`
-
-## B.5 Lists and Bullet Points
-- Use hyphens (`-`) for unordered lists.
-- Leave an empty line before and after a list to ensure proper Markdown rendering.
+## B.5 Requirement ID Formatting
+- All normative requirements SHALL be assigned a unique ID in the format: `[STANDARD]-[TYPE]-[NUMBER]`.
+- Example: `SGM-REQ-001`.
