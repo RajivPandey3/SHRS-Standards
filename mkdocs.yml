@@ -86,3 +86,6 @@ nav:
           - Chapter 3 (Editorial Tone): standards/SEG/chapters/editorial-tone.md
           - Chapter 4 (Markdown for Game Data): standards/SEG/chapters/markdown-game-data.md
           - Chapter 5 (Visuals & Media): standards/SEG/chapters/visuals-and-media.md
+      - Annexes:
+          - Annex A (GDD Template): standards/SEG/annexes/annex-a-gdd-template.md
+          - Annex B (Technical Doc Template): standards/SEG/annexes/annex-b-technical-doc-template.md
