@@ -83,3 +83,5 @@ nav:
       - Chapters:
           - Chapter 1 (Purpose & Scope): standards/SEG/chapters/purpose-and-scope.md
           - Chapter 2 (Game Terminology): standards/SEG/chapters/game-terminology.md
+          - Chapter 3 (Editorial Tone): standards/SEG/chapters/editorial-tone.md
+          - Chapter 4 (Markdown for Game Data): standards/SEG/chapters/markdown-game-data.md
