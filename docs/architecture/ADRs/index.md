@@ -7,3 +7,4 @@ An Architecture Decision Record (ADR) is a short text file in a format similar t
 ## Active Decisions
 - **[ADR-0001: The SHRS Founding Charter](ADR-0001-founding-charter.md)**
 - **[ADR-0002: Repository Architecture](ADR-0002-repository-architecture.md)**
+- **[ADR-0003: The SHRS Vision](ADR-0003-shrs-vision.md)**

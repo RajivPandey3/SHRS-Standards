@@ -49,6 +49,7 @@ nav:
       - Decisions:
           - ADR-0001 (Founding Charter): architecture/ADRs/ADR-0001-founding-charter.md
           - ADR-0002 (Repository Architecture): architecture/ADRs/ADR-0002-repository-architecture.md
+          - ADR-0003 (The SHRS Vision): architecture/ADRs/ADR-0003-shrs-vision.md
   - Standards Governance Model (SGM):
       - Front Matter:
           - Preface: standards/SGM/front-matter/preface.md
