@@ -44,6 +44,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Soul-Hunter Implementation:
+      - Architecture:
+          - Event Bus System: soul-hunter/architecture/event-bus.md
   - Architecture:
       - Architecture Decision Records (ADRs): architecture/ADRs/index.md
       - Decisions:
