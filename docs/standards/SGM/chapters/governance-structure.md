@@ -1,220 +1,190 @@
 # Chapter 3 — Governance Structure
 
-## 3.1 Purpose
+## 3.1 Governance Philosophy
 
-This chapter establishes the governance structure responsible for the development, review, approval, publication, maintenance, and evolution of standards within the Standardized Hierarchical Repository System (SHRS).
+The governance structure defined by this standard establishes the constitutional authority responsible for the creation, maintenance, review, approval, publication, and evolution of SHRS standards.
 
-It defines governance authorities, organizational responsibilities, decision-making authority, delegation rules, and governance relationships required to ensure the integrity, consistency, and sustainability of the SHRS standards ecosystem.
+The governance model SHALL remain scalable, transparent, traceable, and accountable throughout the lifecycle of every standard.
+
+Governance authority SHALL originate solely from this standard and from governance decisions made in accordance with this standard.
 
 ---
 
-## 3.2 Governance Model
-
-The SHRS governance model SHALL be organized as a structured hierarchy of governance authorities.
+## 3.2 Governance Objectives
 
 The governance structure SHALL ensure:
 
-- clearly defined responsibilities;
+- clear allocation of responsibilities;
 - separation of governance functions;
-- independent technical and editorial review;
-- controlled approval authority;
-- traceable governance decisions; and
-- long-term maintainability of standards.
+- independent review;
+- accountable decision-making;
+- traceable governance records;
+- sustainable long-term maintenance; and
+- controlled organizational evolution.
 
 ---
 
-## 3.3 Governance Bodies
+## 3.3 Governance Model
 
-The governance framework consists of the following governance bodies:
+SHRS SHALL adopt a governance model capable of supporting both the initial establishment of the standards ecosystem and its future organizational growth.
 
-1. Standards Steering Committee (SSC)
-2. Standards Editor-in-Chief
-3. Standards Editorial Board
-4. Technical Review Board
-5. Publication Authority
-6. Standards Contributors
+Accordingly, this standard defines two governance modes:
 
-Each governance body SHALL operate within the authority assigned by this standard.
+- Transitional Governance Model; and
+- Multi-Maintainer Governance Model.
+
+The Transitional Governance Model SHALL apply unless formally superseded through an approved governance decision.
 
 ---
 
-## 3.4 Standards Steering Committee (SSC)
+## 3.4 Governance Roles
 
-The Standards Steering Committee (SSC) SHALL constitute the highest governance authority for SHRS standards.
+Governance within SHRS SHALL be performed through defined governance roles.
 
-The SSC SHALL be responsible for:
+The governance roles established by this standard are:
 
-- approving new standards;
-- approving new editions;
-- resolving governance disputes;
-- approving constitutional amendments;
-- appointing governance authorities; and
-- maintaining governance consistency across the SHRS standards ecosystem.
+- Standards Maintainer
+- Standards Editor
+- Technical Reviewer
+- Editorial Reviewer
+- Release Authority
+- Contributor
+
+Governance authority SHALL be assigned to roles rather than individuals.
+
+A single individual MAY perform multiple governance roles where permitted by this standard.
 
 ---
 
-## 3.5 Standards Editor-in-Chief
+## 3.5 Standards Maintainer
 
-The Standards Editor-in-Chief SHALL be responsible for the editorial integrity of all SHRS standards.
+The Standards Maintainer SHALL constitute the primary governance authority during the Transitional Governance Model.
 
-Responsibilities include:
+The Standards Maintainer SHALL be responsible for:
 
+- maintaining the canonical repository;
 - coordinating standards development;
-- maintaining editorial consistency;
-- supervising standards editors;
-- approving editorial revisions;
-- ensuring conformance with this standard; and
-- preparing publication candidates.
+- approving editorial integration;
+- supervising governance records;
+- authorizing publication candidates; and
+- ensuring conformance with this standard.
 
-The Editor-in-Chief SHALL NOT approve constitutional governance changes without SSC approval.
-
----
-
-## 3.6 Standards Editorial Board
-
-The Editorial Board SHALL perform editorial review of standards.
-
-Editorial review SHALL include:
-
-- language consistency;
-- terminology consistency;
-- document structure;
-- formatting;
-- cross-reference validation;
-- editorial quality; and
-- publication readiness.
-
-Editorial review SHALL NOT modify normative intent.
+The Standards Maintainer SHALL remain accountable for all governance actions performed under delegated or combined roles.
 
 ---
 
-## 3.7 Technical Review Board
+## 3.6 Transitional Governance
 
-The Technical Review Board SHALL perform independent technical review.
+During the initial establishment of SHRS, one individual MAY perform multiple governance roles.
 
-Technical review SHALL evaluate:
+Where multiple governance roles are exercised by the same individual:
 
-- technical correctness;
-- internal consistency;
-- governance compliance;
-- requirement traceability;
-- normative completeness; and
-- implementation neutrality where applicable.
+- each governance action SHALL identify the role being exercised;
+- governance records SHALL preserve complete traceability;
+- review activities SHOULD remain functionally independent wherever practical; and
+- governance decisions SHALL remain fully documented.
 
-Technical reviewers SHALL remain independent from editorial reviewers.
+The Transitional Governance Model SHALL remain valid until a formal governance transition is approved.
 
 ---
 
-## 3.8 Publication Authority
+## 3.7 Multi-Maintainer Governance
 
-The Publication Authority SHALL be responsible for the controlled publication of approved standards.
+As SHRS evolves, governance responsibilities MAY be distributed among multiple individuals or governance bodies.
 
-Responsibilities include:
+Additional governance bodies MAY include:
 
-- edition publication;
-- release packaging;
-- publication artifact generation;
-- version assignment;
-- release archive maintenance; and
-- publication integrity verification.
+- Editorial Board;
+- Technical Review Board;
+- Standards Steering Committee; and
+- Publication Committee.
 
-Only approved publication artifacts SHALL be designated as official SHRS standards.
+The establishment of additional governance bodies SHALL require formal approval and documented governance responsibilities.
 
 ---
 
-## 3.9 Standards Contributors
+## 3.8 Delegation of Authority
 
-Standards Contributors MAY propose:
-
-- new standards;
-- amendments;
-- corrigenda;
-- editorial improvements;
-- informative annexes; and
-- governance recommendations.
-
-Contributors SHALL NOT possess approval authority unless separately appointed to a governance body.
-
----
-
-## 3.10 Delegation of Authority
-
-Governance authority MAY be delegated where explicitly authorized.
+Governance authority MAY be delegated.
 
 Delegation SHALL:
 
-- be documented;
+- identify the delegating authority;
+- identify the delegated role;
 - define scope;
-- define duration;
-- identify the delegating authority; and
+- define duration; and
 - preserve accountability.
 
-Delegated authority SHALL NOT exceed the authority of the delegating body.
+Delegated authority SHALL NOT exceed the authority granted by this standard.
 
 ---
 
-## 3.11 Separation of Responsibilities
+## 3.9 Independence of Governance Functions
 
-The governance framework SHALL maintain separation between:
+The governance framework SHALL preserve functional independence between:
 
 - authorship;
 - editorial review;
-- technical review;
-- approval; and
-- publication.
+- technical review; and
+- publication approval.
 
-No single governance role SHOULD perform all governance functions for the same normative decision.
-
----
-
-## 3.12 Governance Decision Making
-
-Governance decisions SHALL be made through documented governance procedures.
-
-Every governance decision SHALL identify:
-
-- decision identifier;
-- approving authority;
-- decision date;
-- supporting evidence;
-- implementation status; and
-- applicable standard.
+Where one individual performs multiple governance roles, the role exercised for each governance action SHALL be explicitly recorded.
 
 ---
 
-## 3.13 Conflict Resolution
+## 3.10 Governance Decisions
 
-Governance conflicts SHALL be resolved according to the governance hierarchy established by this standard.
+Every governance decision SHALL produce a governance record.
 
-Where authority is disputed:
+Each governance record SHALL include:
 
-1. Explicit normative requirements SHALL prevail.
-2. Approved SSC decisions SHALL prevail.
-3. Constitutional governance principles SHALL govern interpretation.
+- Decision Identifier;
+- Responsible Governance Role;
+- Decision Date;
+- Decision Rationale;
+- Decision Outcome; and
+- Traceability Reference.
 
-All conflict resolutions SHALL be documented.
+Governance decisions SHALL be retained as part of the canonical governance history.
 
 ---
 
-## 3.14 Governance Records
+## 3.11 Governance Records
 
-Every governance activity SHALL produce appropriate governance records.
+Governance records SHALL constitute the official evidence of governance activities.
 
-Governance records SHALL remain:
+Governance records SHALL be:
 
 - complete;
-- traceable;
 - version controlled;
+- auditable;
 - reviewable; and
-- retained according to the applicable governance policy.
+- permanently traceable.
+
+The canonical repository SHALL remain the authoritative source for governance records.
 
 ---
 
-## 3.15 Compliance
+## 3.12 Governance Evolution
 
-Organizations implementing SHRS governance SHALL establish governance structures that conform to the responsibilities and authorities defined by this chapter.
+The governance structure defined by this standard SHALL support progressive organizational growth without compromising constitutional stability.
 
-Equivalent governance structures MAY be adopted provided they preserve the constitutional intent, accountability, independence, and authority relationships established by this standard.
+Future governance bodies MAY be established through approved governance decisions.
+
+Governance evolution SHALL preserve:
+
+- governance integrity;
+- traceability;
+- accountability; and
+- compatibility with previously approved standards.
+
+---
+
+## 3.13 Compliance
+
+Organizations implementing SHRS governance SHALL establish governance structures that conform to the constitutional requirements defined by this chapter.
+
+Equivalent governance structures MAY be adopted provided they preserve the intent, authority relationships, accountability, and traceability established by this standard.
 
 ---
 
