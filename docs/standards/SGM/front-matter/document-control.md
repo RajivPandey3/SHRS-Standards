@@ -1,7 +1,7 @@
 # Document Control
 
 ## Ownership
-- **Owner**: SHRS Governance Board
+- **Owner**: Standards Maintainer (Transitional)
 - **Maintainer**: Standards Maintainer
 
 ## Document Identification

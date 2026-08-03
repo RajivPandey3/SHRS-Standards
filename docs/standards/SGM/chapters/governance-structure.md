@@ -4,6 +4,9 @@ The governance of SHRS Standards relies on a defined set of Governance Roles and
 
 ## 3.1 Governance Roles
 
+### 3.1.0 Transitional Governance
+During Edition 1, the SHRS Governance Board is not yet formally constituted. Therefore, all executive governance and ownership responsibilities SHALL temporarily reside with the Standards Maintainer until a formal Governance Board is established.
+
 ### 3.1.1 Standards Maintainer
 The Standards Maintainer is the primary Governance Role responsible for day-to-day coordination, managing the Canonical Repository, and ensuring that all changes adhere to the SGM.
 
