@@ -1,122 +1,199 @@
 SHRS Repository Audit v1.0
-Audit-06 — Annexes
-Annex A — Glossary
+Audit-07 — Metadata (FULL)
+1. CHANGELOG.md
 Score: 84 /100
 ✅ Strengths
-Structure साफ़ है।
-Status स्पष्ट है।
-Canonical terminology का उद्देश्य स्पष्ट लिखा गया है।
-शुरुआत में scope statement अच्छा है।
+Keep a Changelog style अपनाया गया है।
+Versioned entries हैं (0.1.0).
+"Added" section स्पष्ट है।
+Bootstrap milestone रिकॉर्ड किया गया है।
 🟠 Findings
-अभी glossary में केवल प्रारम्भिक terms हैं; पूरे SGM के defined terms अभी शामिल नहीं हैं।
-TERM IDs glossary entries से जुड़े नहीं हैं।
-Cross-reference (जैसे "Used in: Chapter X") नहीं है।
+केवल Added section है।
+Changed, Fixed, Removed sections नहीं हैं।
+Work Order references नहीं हैं (जैसे WO-P01).
 Recommendation
 
-RC-1 से पहले Glossary को master terminology source बनाना होगा।
+हर release entry में:
 
-Annex B — Editorial Style Guide (SEG)
-Score: 91 /100
+Added
+Changed
+Fixed
+Deprecated
+Removed
+Related Work Orders
+
+होना चाहिए।
+
+2. DECISIONS.md
+Score: 90 /100
 ✅ Strengths
-Heading hierarchy स्पष्ट।
-Markdown conventions पर ध्यान दिया गया है।
-Repository-wide editorial consistency की अच्छी शुरुआत है।
+Decision IDs (ED-006, ED-007) हैं।
+Date है।
+Summary है।
+Author है।
+
+यह governance maturity दिखाता है।
+
 🟠 Findings
-RFC 2119 keyword policy अलग subsection में होनी चाहिए।
-Cross-reference formatting rules और requirement ID formatting भी जोड़नी चाहिए।
 
-यह Annex मुझे repository के सबसे अच्छे documents में से एक लगा।
+मैं दो और columns जोड़ने की सलाह दूँगा:
 
-Annex C — Governance Record Templates
-Score: 88 /100
-✅ Strengths
-Work Order template मौजूद।
-Governance Decision documentation पर ज़ोर।
-Traceability का अच्छा integration।
-🟠 Findings
-Template set अभी सीमित है।
+Status (Draft / Approved / Superseded)
+Related Chapter(s)
 
-मैं कम से कम ये templates अपेक्षित मानूँगा:
+उदाहरण:
 
-Work Order
-Change Request
-Review Record
-Approval Record
-Publication Record
-Release Record
-Annex D — Lifecycle Examples
+ID	Status	Related Chapter
+3. METADATA.yaml
+Score: 68 /100
+
+यह file सबसे अधिक सुधार चाहती है।
+
+Current
+document_id: SHRS-SGM-001
+title: Standards Governance Model
+version: 0.1.0
+lifecycle_state: Draft
+owner: SHRS Governance Board
+maintainer: Standards Maintainer
+last_updated: 2026-08-03
+🔴 Critical Finding
+
+यहाँ अभी भी:
+
+owner: SHRS Governance Board
+
+लिखा है।
+
+लेकिन हमारी governance architecture के अनुसार Edition 1 में primary authority Standards Maintainer है।
+
+यह repository के बाकी architectural decisions से inconsistent है।
+
+Missing Fields
+
+मैं कम से कम यह fields अपेक्षित मानूँगा:
+
+edition:
+status:
+approval_authority:
+publication_date:
+canonical_repository:
+document_class:
+4. RELEASE_NOTES.md
 Score: 86 /100
 ✅ Strengths
-Examples chapter को समझने में मदद करते हैं।
-Normative text से अलग informative annex के रूप में उचित है।
+Draft release स्पष्ट है।
+Release scope अच्छी तरह summarize किया गया है।
 🟠 Findings
-केवल minor revision example पर्याप्त नहीं।
-Published → Deprecated → Withdrawn जैसे examples भी होने चाहिए।
-Annex E — Repository Structure Reference
-Score: 94 /100
-✅ Strengths
 
-यह repository की सबसे मजबूत annexes में से एक है।
+Release Notes में होना चाहिए:
 
-Directory structure स्पष्ट।
-Canonical Repository concept reinforce होता है।
-Organization बहुत अच्छी है।
-Minor Recommendation
+New Features
 
-Directory tree को code block के रूप में और अधिक complete दिखाया जा सकता है।
+Breaking Changes
 
-Annex F — Requirement Traceability Matrix (RTM)
+Known Issues
+
+Next Milestone
+5. REQUIREMENT_REGISTRY.md
 Score: 83 /100
 ✅ Strengths
-RTM मौजूद है।
-Columns logical हैं।
-Governance Record linkage का विचार सही है।
+Registry मौजूद है।
+Annex F से link है।
+Requirements numbered हैं।
 🟠 Findings
 
-अभी matrix largely template stage में है।
+अभी requirements:
 
-RC-1 से पहले इसमें वास्तविक requirements (जैसे SGM-REQ-001...) populate होने चाहिए।
+REQ-001
+REQ-002
+REQ-003
 
-Annex Scores
-Annex	Score
-Glossary	84
-Editorial Style Guide	91
-Governance Record Templates	88
-Lifecycle Examples	86
-Repository Structure Reference	94
-Requirement Traceability Matrix	83
-Overall Annex Score
+हैं।
 
-88 /100
+लेकिन हमने roadmap में:
 
-Major Findings
-🟠 AF-001
+SGM-REQ-001
 
-Glossary अभी canonical terminology source बनने के लिए अधूरी है।
+format तय किया था।
 
-🟠 AF-002
+Consistency के लिए prefix जोड़ना उचित होगा।
 
-Requirement Traceability Matrix अभी template है; इसमें वास्तविक requirement mappings नहीं हैं।
+6. SESSION_LOG.md
+Score: 89 /100
+✅ Strengths
+Session tracking अच्छा है।
+Timeline स्पष्ट है।
+User & AI collaboration documented है।
+🟠 Findings
 
-🟡 AF-003
+मैं एक column और जोड़ूँगा:
 
-Governance Record Templates का coverage बढ़ाया जा सकता है।
+Related Work Order
+7. terminology-registry.md
+Score: 93 /100
 
-Strongest Annexes
+यह metadata folder की सबसे मजबूत file है।
 
-🥇 Repository Structure Reference — 94
+Strengths
+TERM IDs
+Canonical Term
+Definition Source
+Usage Chapters
 
-🥈 Editorial Style Guide — 91
+सब हैं।
 
-🥉 Governance Record Templates — 88
+यह बिल्कुल वही direction है जो हमने WO-P01 में तय की थी।
 
-Weakest Annex
+Minor Finding
 
-Requirement Traceability Matrix — 83
+कुछ terms की Usage Chapters को Chapter 5–6 के अंतिम canonical versions से synchronize करना होगा।
 
-यह खराब नहीं है; बस अभी working template है, populated artifact नहीं।
+Metadata Scores
+File	Score
+CHANGELOG.md	84
+DECISIONS.md	90
+METADATA.yaml	68
+RELEASE_NOTES.md	86
+REQUIREMENT_REGISTRY.md	83
+SESSION_LOG.md	89
+terminology-registry.md	93
+Metadata Overall Score
 
-Repository Running Score
+85 /100
+
+Critical Findings
+🔴 MF-007
+
+METADATA.yaml
+
+अभी भी:
+
+owner: SHRS Governance Board
+
+है।
+
+यह Chapter 3 के governance decisions से synchronize नहीं है।
+
+🟠 MF-008
+
+Requirement Registry में naming policy और canonical requirement ID policy अभी पूरी तरह synchronized नहीं है।
+
+🟡 MF-009
+
+CHANGELOG semantic format का अच्छा आधार है, लेकिन Work Order traceability जोड़ने से governance evidence और मजबूत होगी।
+
+Strongest Metadata File
+
+🥇 terminology-registry.md — 93/100
+
+Weakest Metadata File
+
+🔻 METADATA.yaml — 68/100
+
+मुख्य कारण content नहीं, बल्कि architectural synchronization है।
+
+Running Repository Score
 Area	Score
 Repository Root	57
 Front Matter	79
@@ -124,10 +201,20 @@ Chapters 1–2	76.5
 Chapters 3–4	84
 Chapters 5–6	86.5
 Annexes	88
+Metadata	85
 Editor-in-Chief Decision
 
-Annex architecture मजबूत है। सबसे बड़ी आवश्यकता content maturity की है, structure की नहीं।
+Metadata architecture मजबूत है। सबसे बड़ा मुद्दा structure नहीं, बल्कि synchronization है।
 
-Audit-06 Status: ✅ Completed
+विशेष रूप से:
 
-अब अगला चरण होगा Audit-07 — Metadata, जहाँ हम CHANGELOG.md, DECISIONS.md, RELEASE_NOTES.md, REQUIREMENT_REGISTRY.md, SESSION_LOG.md और terminology registry जैसी metadata files का review करेंगे। यही audit बताएगा कि repository governance वास्तव में traceable है या अभी केवल documentation स्तर पर है।
+METADATA.yaml को वर्तमान governance model के साथ synchronize करना।
+Requirement ID policy को पूरे repository में एकसमान करना।
+Work Order traceability को CHANGELOG और SESSION_LOG में जोड़ना।
+Audit-07 Status
+
+✅ FULLY COMPLETED
+
+यह पहला audit है जिसमें Metadata folder की सभी वास्तविक files का content पढ़कर review किया गया है।
+
+अब अगला चरण होगा Audit-08 — Repository Engineering, जहाँ पूरा repository (folder hierarchy, naming conventions, build readiness, generated site, duplication, navigation, maintainability) engineering दृष्टिकोण से audit किया जाएगा।
