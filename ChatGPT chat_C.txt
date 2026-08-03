@@ -1,205 +1,239 @@
 SHRS Repository Audit v1.0
-Audit-03 — Core Chapters (Chapter 1 & Chapter 2)
-Chapter 1 — Purpose and Scope
+Audit-04 — Chapter 3 & Chapter 4
+Chapter 3 — Governance Structure
 Overall Score
 
-74 /100
+81 /100
 
-1. Architecture — 90/100 ✅
-
-Structure साफ़ है:
-
-Purpose
-Scope
-Exclusions
-
-यह logical flow है।
-
-2. Standards Engineering — 70/100
+1. Architecture — 88/100 ✅
 
 अच्छी बातें:
 
-Scope स्पष्ट है।
-Governance focus स्पष्ट है।
+Governance Roles पहले define किए गए हैं।
+Responsibilities स्पष्ट हैं।
+Decision-making अलग section में है।
+Voting और dispute resolution अलग रखा गया है।
 
-कमियाँ:
+Structure पढ़ने में आसान है।
 
-"Applicability" section नहीं है।
-"Normative References" नहीं हैं।
-"Terms and Definitions" Chapter 1 में नहीं हैं।
-"Conformance" नहीं है।
+2. Standards Engineering — 76/100
+Strengths
+Standards Maintainer
+Approval Authority
+Publication Authority
+Governance Gate
+Governance Record
 
-ये चारों हमने बाद में design किए थे, लेकिन repository में अभी नहीं हैं।
+ये सभी अच्छे governance concepts हैं।
 
-3. Normative Language — 68/100
+Weaknesses
 
-"SHALL" का उपयोग है।
+Repository की file में roles और bodies दोनों का मिश्रण है:
 
-लेकिन कहीं-कहीं "ensures", "applies", "does not cover" जैसी descriptive language है।
+"Governance Roles and bodies"
 
-Chapter 1 constitutional chapter है।
+लेकिन आगे bodies लगभग define नहीं की गईं।
 
-इसमें descriptive और normative language का स्पष्ट separation होना चाहिए।
+Terminology स्पष्ट होनी चाहिए:
 
-4. Editorial Quality — 82/100
+या Role-based model
+या Committee-based model
 
-Grammar अच्छी है।
+दोनों एक साथ नहीं।
 
-Heading hierarchy भी ठीक है।
+3. Normative Language — 72/100
 
-लेकिन chapter थोड़ा छोटा है।
+मुझे एक inconsistency मिली।
 
-5. RC-1 Readiness — 60/100
-
-अभी यह Working Draft जैसा लगता है।
-
-Release Candidate नहीं।
-
-Major Findings
-
-🔴 Missing
-
-Applicability
-Objectives
-Conformance
-Normative References
-Terms & Definitions
-Recommendation
-
-Chapter 1 को हमने chat में जिस canonical version तक पहुँचाया था, repository को उसी version पर synchronize करना चाहिए।
-
-Chapter 2 — Governance Principles
-Overall Score
-
-79 /100
-
-1. Architecture — 86/100
-
-Flow अच्छा है।
-
-लेकिन शुरुआत सीधे principles से हो जाती है।
-
-एक introductory governance philosophy section होना चाहिए।
-
-2. Standards Engineering — 84/100
-
-अच्छी बातें:
-
-Traceability
-Canonical Source
-Transparent Governance
-Controlled Revisions
-
-ये सभी सही concepts हैं।
-
-3. Normative Language — 73/100
-
-एक inconsistency मिली।
-
-तुमने दोनों keywords इस्तेमाल किए हैं:
+एक ही chapter में:
 
 SHALL
-
-और
-
 MUST
+CAN
+CANNOT
 
-अगर SGM RFC 2119 follow करेगा, तो यह संभव है, लेकिन पूरे document में एक consistent editorial policy होनी चाहिए। हमने पहले "SHALL" को primary keyword मानने की बात की थी।
-
-4. Cross References — 70/100
-
-यह line मिली:
-
-(see Chapter 5)
-
-लेकिन file link:
-
-governance-records.md
-
-अगर chapters का नाम या क्रम बदलेगा तो यह टूट सकता है।
-
-Cross-reference policy अभी define नहीं हुई।
-
-5. Editorial Quality — 82/100
-
-भाषा अच्छी है।
-
-लेकिन principles की ordering बाद के architectural decisions से अलग है।
-
-Major Findings
-
-🟠 Mixed keyword usage
-
-SHALL
-
-+
-
-MUST
-
-Editorial policy decide करनी होगी।
-
-🟠 Missing
-
-Governance Philosophy
-
-Legitimacy
-
-Evidence-Based Governance
-
-Integrity
-
-(ये concepts हमने बाद में design किए थे, repository में नहीं हैं।)
-
-Audit Result
-Chapter	Score
-Chapter 1	74
-Chapter 2	79
-Cross-Chapter Findings
-🔴 Critical Finding CF-003
-
-Repository chapters chat में तैयार किए गए canonical drafts के साथ synchronized नहीं हैं।
-
-इसका मतलब:
-
-Repository में पुराने drafts हैं।
-हमारी later editorial decisions पूरी तरह लागू नहीं हुई हैं।
-🔶 Major Finding MF-002
-
-Terminology अभी पूरी तरह normalize नहीं हुई।
+चारों का उपयोग है।
 
 उदाहरण:
 
-Governance Role
-Governance Roles
-Canonical Source
-Canonical Repository
-Publication Artifact
+No single role CAN bypass...
 
-इनकी definitions centralized glossary से link होनी चाहिए।
+यह normative drafting के लिए उपयुक्त नहीं है।
 
-Repository Status
+यदि यह prohibition है, तो इसे "SHALL NOT" के रूप में लिखना अधिक consistent होगा।
+
+4. Governance Model — 84/100
+
+तुमने Standards Maintainer introduce किया है।
+
+यह अच्छा है।
+
+लेकिन हमने chat में जो Transitional Governance Model design किया था, वह repository में अभी नहीं है।
+
+5. RC-1 Readiness — 78/100
+
+Chapter अच्छा है।
+
+लेकिन constitutional maturity अभी बाकी है।
+
+Major Findings
+
+🟠 Mixed governance model
+
+Roles
+
+Bodies
+
+🟠 Mixed keywords
+
+SHALL
+
+MUST
+
+CAN
+
+Recommendation
+
+Governance model एक editorial pass मांगता है।
+
+Chapter 4 — Standards Lifecycle
+Overall Score
+
+87 /100
+
+यह अभी तक repository का सबसे मजबूत chapter है।
+
+1. Architecture — 93/100
+
+बहुत अच्छा।
+
+Flow:
+
+States
+Transitions
+Versioning
+
+Logical है।
+
+2. Standards Engineering — 91/100
+
+Mermaid diagram जोड़ना अच्छा निर्णय है।
+
+Lifecycle स्पष्ट दिखाई देता है।
+
+Governance Gates अच्छी तरह integrate किए गए हैं।
+
+3. Lifecycle Design — 90/100
+
+States अच्छी हैं।
+
+लेकिन एक architectural observation:
+
+Repository में states हैं:
+
+Draft
+Under Review
+Approved
+Published
+Deprecated
+
+हमारी बाद की architecture में:
+
+Proposed
+Draft
+Review
+Approved
+Published
+Maintained
+Deprecated
+Withdrawn
+
+थी।
+
+Repository अभी simplified version पर है।
+
+यह गलत नहीं है, लेकिन future expansion की आवश्यकता होगी।
+
+4. Versioning — 82/100
+
+Edition
+
+Version
+
+Revision
+
+अलग-अलग define हैं।
+
+अच्छा है।
+
+लेकिन Amendment और Corrigendum भी साथ होने चाहिए।
+
+5. Editorial Quality — 88/100
+
+Grammar अच्छी है।
+
+Mermaid diagram readability बढ़ाता है।
+
+RC-1 Readiness — 89/100
+
+यह repository का strongest chapter है।
+
+Cross-Chapter Findings
+🔴 Critical Finding CF-004
+
+Keyword policy अभी inconsistent है।
+
+Repository में:
+
+SHALL
+MUST
+CAN
+CANNOT
+
+सभी दिखाई देते हैं।
+
+तुम्हें पूरे SGM के लिए एक editorial policy तय करनी होगी।
+
+🟠 Major Finding MF-004
+
+Governance terminology evolve हो चुकी है।
+
+लेकिन Chapter 3 पुराने और नए concepts का मिश्रण है।
+
+Scores
+Chapter	Score
+Chapter 3	81
+Chapter 4	87
+Current Repository Score
 Area	Score
 Repository Root	57
 Front Matter	79
 Chapter 1	74
 Chapter 2	79
+Chapter 3	81
+Chapter 4	87
 
-Current Average: 72/100
+Running Average: 76/100
 
 Editor-in-Chief Decision
+Chapter 3
 
-यहाँ मुझे एक महत्वपूर्ण बात मिली।
+🟡 Needs Editorial Synchronization
 
-हमने chat में Chapter 1 और Chapter 2 को repository से बेहतर स्तर तक विकसित कर लिया था, लेकिन repository में वे updates पूरी तरह नहीं पहुँचे।
+यह structurally अच्छा है, लेकिन terminology और governance model को एकरूप करने की आवश्यकता है।
 
-इसलिए मेरा पहला mandatory recommendation होगा:
+Chapter 4
 
-WO-0 — Repository Synchronization को WO-P01 से पहले पूरा किया जाए।
+🟢 Strong Draft
 
-क्योंकि अगर हम असंगत drafts पर terminology normalize करेंगे, तो बाद में फिर से changes करने पड़ेंगे।
+यह अभी तक repository का सबसे परिपक्व chapter है। यदि RC-1 के लिए किसी chapter को सबसे कम बदलाव की आवश्यकता है, तो वह यही है।
 
-Audit-03 Status
+Audit-04 Status
 
 ✅ Completed
 
-अगले चरण में हम Audit-04 (Chapter 3 & Chapter 4) करेंगे, जहाँ governance architecture और lifecycle governance का सबसे महत्वपूर्ण technical review होगा।
+अब अगला चरण होगा:
+
+Audit-05 — Chapter 5 (Publication Governance) & Chapter 6 (Governance Records / Evidence & Traceability)
+
+मुझे उम्मीद है कि यही audit बताएगा कि SGM की अंतिम operational layer और evidence layer कितनी अच्छी तरह एक-दूसरे से जुड़ी हुई हैं।
