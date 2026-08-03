@@ -1,2 +1,7 @@
-document_id: SGM-v1.0
-version: 1.1.0-bootstrap
+document_id: SHRS-SGM-001
+title: Standards Governance Model
+version: 0.1.0
+lifecycle_state: Draft
+owner: SHRS Governance Board
+maintainer: Standards Maintainer
+last_updated: 2026-08-03
