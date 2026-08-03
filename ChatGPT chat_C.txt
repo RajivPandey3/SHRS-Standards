@@ -1,180 +1,166 @@
-SHRS Repository Audit v1.0
-Audit-09 — Cross-Reference & Editorial Consistency
-Overall Score
+सबसे पहले: जो पहले Critical Issues थे, उनमें प्रगति
+Issue	पहले	अब
+README	Placeholder	✅ Production-level introduction
+SGM/index.md	केवल title	✅ TOC, Edition, Version, Status, Links
+Document Control	Governance Board inconsistency	✅ Standards Maintainer (Transitional)
+Build folder	Missing guidance	✅ build/README.md मौजूद
+Metadata sync	आंशिक	✅ काफी बेहतर
 
-83 /100
+इन सुधारों का repository quality पर वास्तविक प्रभाव पड़ा है।
 
-Repository editorial रूप से अच्छी स्थिति में है, लेकिन RC-1 से पहले consistency पर एक समर्पित pass आवश्यक होगा।
+Full Reassessment
+1. Repository Architecture
 
-1. Cross-Reference Integrity
-Score: 86 /100
-✅ Strengths
-Internal chapter references मौजूद हैं।
-कम से कम एक relative Markdown link (जैसे ../chapters/...) उपयोग किया गया है।
-Requirement Registry से RTM की ओर link भी मौजूद है।
-Findings
-अधिकांश references "Chapter X" के रूप में लिखे गए हैं, लेकिन सभी जगह clickable links नहीं हैं।
-कुछ chapters केवल chapter number का उल्लेख करते हैं, जबकि कुछ relative Markdown links का उपयोग करते हैं।
+पहले: 96/100
+अब: 99/100
 
-Recommendation: पूरे repository में cross-reference की एक ही policy अपनाओ:
+मैं अब architecture को लगभग freeze करने की सलाह दूँगा।
 
-या केवल chapter references,
-या chapter reference + relative Markdown link.
+2. README
 
-दोनों styles का मिश्रण न रखो।
+मैंने README खोला।
 
-2. Editorial Terminology
-Score: 81 /100
+अब उसमें:
 
-मैंने वास्तविक files में देखा कि:
+Project introduction
+SHRS explanation
+Repository purpose
 
-SHALL और MUST दोनों उपयोग हो रहे हैं।
-कुछ annexes में भी दोनों keywords साथ दिखाई देते हैं।
+है।
 
-यह गलत नहीं है, लेकिन एक editorial policy आवश्यक है।
+यह पहले वाले bootstrap README से काफी बेहतर है।
 
-यदि SGM की policy है कि normative requirements मुख्यतः SHALL से लिखी जाएँ, तो MUST का उपयोग केवल विशेष rationale के साथ होना चाहिए।
+Score: 90/100
+(पहले 12/100 दिया था।)
 
-3. Capitalization Consistency
-Score: 84 /100
-Strengths
+3. SGM Index
 
-Defined terms सामान्यतः consistent हैं।
+यह सबसे बड़ा सुधार है।
 
-Findings
+अब इसमें:
 
-Glossary और chapters के बीच capitalization की पूर्ण consistency पर अभी एक pass आवश्यक है, विशेषकर:
+Edition
+Version
+Status
+TOC
+Front Matter links
+Chapter links
 
-Governance Record
-Work Order
-Canonical Repository
-Publication Authority
-4. Internal Linking
-Score: 88 /100
+हैं।
 
-Repository में relative links का उपयोग शुरू हो चुका है।
+Score: 95/100
+(पहले 8/100 था।)
 
-यह अच्छी दिशा है।
+4. Document Control
 
-Recommendation
+अब:
 
-Index page से:
+Standards Maintainer (Transitional)
+Approval Authority
+Classification
+Canonical Repository Location
 
-Chapters
-Annexes
-Front Matter
+सब synchronized हैं।
 
-सभी के direct links होने चाहिए।
+Score: 94/100
 
-5. Requirement Traceability
-Score: 79 /100
+Updated Repository Scores
+Area	Old	New
+Repository Root	57	93
+Front Matter	79	91
+Chapters 1–2	76.5	(content review अभी अलग pass में होगा)
+Chapters 3–4	84	84
+Chapters 5–6	86.5	86.5
+Annexes	88	89
+Metadata	85	91
+Repository Engineering	92	98
+Editorial Consistency	83	87
+Overall Repository Score
 
-RTM मौजूद है।
+पहले: 83/100
 
-Requirement Registry मौजूद है।
+अब: 91/100
 
-लेकिन Chapters 1–6 में requirements अभी systematic IDs (SGM-REQ-xxx) के साथ नहीं जुड़ी हैं।
+यह एक वास्तविक सुधार है, केवल अंक बढ़ाने के लिए नहीं। README, index और document-control जैसे entry-point documents standards repository में बहुत महत्व रखते हैं।
 
-यह WO-P04 का मुख्य कार्य होगा।
+अब सबसे महत्वपूर्ण बात
 
-6. Editorial Voice
-Score: 90 /100
+मैं अपना पुराना verdict बदल रहा हूँ।
 
-पूरे repository में tone काफी consistent है:
+पहले
 
-formal
-standards-oriented
-repository-centric
+❌ RC-1 Not Ready
 
-यह बड़ी उपलब्धि है।
+अब
 
-Critical Findings
-🔴 EC-001
+मैं इसे बदलकर कहूँगा:
 
-RFC keyword policy पूरी तरह normalize नहीं हुई।
+🟡 RC-1 Candidate
 
-Observed:
+अर्थात् repository अब RC-1 के काफी करीब है, लेकिन मैं अभी भी Final RC-1 Approval नहीं दूँगा।
+
+Remaining Critical Items
+
+अब केवल तीन बड़े कार्य बचे हैं:
+
+1. Requirement IDs
+
+पूरे SGM में:
+
+SGM-REQ-001
+SGM-REQ-002
+...
+
+assign होने चाहिए।
+
+2. Glossary Completion
+
+Glossary अभी भी पूरे SGM का canonical terminology source नहीं बनी है।
+
+3. Repository-wide Editorial Pass
+
+पूरे SGM के लिए:
 
 SHALL
-MUST
+SHALL NOT
+MAY
+SHOULD
 
-दोनों का मिश्रण।
+की consistency एक अंतिम pass में देखनी होगी।
 
-🟠 EC-002
+Final Professional Assessment
 
-Cross-reference style एकरूप नहीं है।
+मैंने पहले तुम्हें A- (83/100) दिया था।
 
-कुछ स्थानों पर:
+अब, इस updated repository के आधार पर:
 
-"Chapter 5"
+Repository Grade
 
-और कुछ पर:
+A (91/100)
 
-relative Markdown link
-🟠 EC-003
+मेरी सबसे महत्वपूर्ण टिप्पणी
 
-Index pages (docs/index.md, SGM/index.md) अभी navigation hubs नहीं बने हैं।
+मैंने कई standards repositories और technical documentation structures देखे हैं। तुम्हारे repository की सबसे बड़ी ताकत अब उसकी architecture है।
 
-Strongest Area
+लेकिन अब architecture लगभग complete है।
 
-Editorial voice।
+अब आगे का काम "नया content" नहीं, बल्कि standards editing है।
 
-पूरे repository में tone लगभग समान है।
+यानी:
 
-Weakest Area
+terminology,
+requirement traceability,
+editorial consistency,
+release quality.
 
-Requirement traceability linkage।
+यही चार चीज़ें तय करेंगी कि यह repository 91/100 पर रुकती है या 95–97/100 तक पहुँचती है।
 
-Infrastructure मौजूद है, लेकिन chapters से linkage अभी अधूरा है।
+मेरा अंतिम निर्णय
 
-Scores
-Category	Score
-Cross References	86
-Terminology	81
-Capitalization	84
-Internal Linking	88
-Requirement Traceability	79
-Editorial Voice	90
-Overall Editorial Consistency
+मैं अब SGM को "Working Draft" नहीं कहूँगा।
 
-83 /100
+नई स्थिति:
 
-Repository Running Score
-Area	Score
-Repository Root	57
-Front Matter	79
-Chapters 1–2	76.5
-Chapters 3–4	84
-Chapters 5–6	86.5
-Annexes	88
-Metadata	85
-Repository Engineering	92
-Editorial Consistency	83
-Editor-in-Chief Decision
+SGM Edition 1 — Release Candidate Candidate (RC-Pre1)
 
-Repository अब उस अवस्था में है जहाँ नई सामग्री जोड़ने की बजाय consistency pass अधिक मूल्य देगा।
-
-मुख्य सुधार:
-
-RFC keyword policy (SHALL बनाम MUST) स्पष्ट करना।
-Cross-reference style standardize करना।
-Glossary को सभी defined terms का एकमात्र canonical source बनाना।
-Requirement IDs को chapters से जोड़ना।
-Audit-09 Status
-
-✅ Completed
-
-अगला और अंतिम चरण
-
-अब केवल Audit-10 — Final RC-1 Readiness Report शेष है।
-
-वह सबसे महत्वपूर्ण audit होगा। उसमें मैं पूरी repository का अंतिम मूल्यांकन दूँगा:
-
-Overall Repository Score (/100)
-RC-1 Readiness
-Critical Issues
-Major Issues
-Minor Issues
-Mandatory Fixes
-Recommended Fixes
-Go / No-Go decision for SGM Edition 1 Release Candidate.
+यह RC-1 के बहुत करीब है। मेरी राय में अब केवल एक अंतिम editorial stabilization pass (WO-P01 से WO-P10) के बाद इसे SGM Edition 1 RC-1 घोषित किया जा सकता है।
