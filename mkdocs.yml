@@ -41,3 +41,40 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.magiclink
+
+nav:
+  - Home: index.md
+  - Standards Governance Model (SGM):
+      - Front Matter:
+          - Preface: standards/SGM/front-matter/preface.md
+          - Document Control: standards/SGM/front-matter/document-control.md
+          - Revision History: standards/SGM/front-matter/revision-history.md
+          - Review History: standards/SGM/front-matter/review-history.md
+      - Chapters:
+          - Chapter 1 (Purpose & Scope): standards/SGM/chapters/purpose-and-scope.md
+          - Chapter 2 (Governance Principles): standards/SGM/chapters/governance-principles.md
+          - Chapter 3 (Governance Structure): standards/SGM/chapters/governance-structure.md
+          - Chapter 4 (Standards Lifecycle): standards/SGM/chapters/standards-lifecycle.md
+          - Chapter 5 (Governance Records): standards/SGM/chapters/governance-records.md
+          - Chapter 6 (Release Governance): standards/SGM/chapters/release-governance.md
+      - Annexes:
+          - Annex A (Glossary): standards/SGM/annexes/glossary.md
+          - Annex B (Editorial Style Guide): standards/SGM/annexes/editorial-style-guide.md
+          - Annex C (Governance Record Templates): standards/SGM/annexes/governance-record-templates.md
+          - Annex D (Lifecycle Examples): standards/SGM/annexes/lifecycle-examples.md
+          - Annex E (Repository Structure Reference): standards/SGM/annexes/repository-structure-reference.md
+          - Annex F (Requirement Traceability Matrix): standards/SGM/annexes/requirement-traceability-matrix.md
+      - Metadata:
+          - Changelog: standards/SGM/metadata/CHANGELOG.md
+          - Decisions Log: standards/SGM/metadata/DECISIONS.md
+          - Release Notes: standards/SGM/metadata/RELEASE_NOTES.md
+          - Requirement Registry: standards/SGM/metadata/REQUIREMENT_REGISTRY.md
+          - Session Log: standards/SGM/metadata/SESSION_LOG.md
+          - Terminology Registry: standards/SGM/metadata/terminology-registry.md
+  - Knowledge Package Publication Model (KPM):
+      - Chapters:
+          - Chapter 11 (Publication): standards/KPM/chapters/chapter-11-publication.md
+          - Chapter 12 (Evolution): standards/KPM/chapters/chapter-12-evolution.md
+          - Chapter 13 (Compliance): standards/KPM/chapters/chapter-13-compliance.md
+          - Chapter 14 (Best Practices): standards/KPM/chapters/chapter-14-best-practices.md
+          - Chapter 15 (Architectural Summary): standards/KPM/chapters/chapter-15-architectural-summary.md
