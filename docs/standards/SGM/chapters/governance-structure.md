@@ -1,6 +1,6 @@
 # Chapter 3 — Governance Structure
 
-The governance of SHRS standards relies on a defined set of roles and bodies, each with clear responsibilities in the creation, approval, and publication processes.
+The governance of SHRS Standards relies on a defined set of Governance Roles and bodies, each with clear responsibilities in the creation, approval, and publication processes.
 
 ## 3.1 Governance Roles
 
@@ -14,4 +14,4 @@ The Approval Authority is responsible for making final Governance Decisions rega
 The Publication Authority oversees the final steps of releasing a Standard. They verify that all Governance Evidence is present before allowing a Release to pass through the Publication Gate.
 
 ## 3.2 Decision Making Process
-All decisions impacting normative content MUST be documented as a Governance Record. No single role can bypass the established Governance Gates without following the defined Change Request and Work Order procedures.
+All decisions impacting normative content MUST be documented as a Governance Record. No single role CAN bypass the established Governance Gates without following the defined Change Request and Work Order procedures.

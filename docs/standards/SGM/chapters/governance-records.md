@@ -1,6 +1,6 @@
 # Chapter 5 — Governance Records
 
-A robust standards model requires impeccable record-keeping. Every Governance Decision MUST be permanently recorded and verifiable.
+A robust Standard model requires impeccable record-keeping. Every Governance Decision MUST be permanently recorded and verifiable.
 
 ## 5.1 Governance Evidence
 Governance Evidence is the collection of all artifacts, communications, and formal approvals that justify a Governance Decision. This evidence SHALL be preserved in the Canonical Repository alongside the Standard itself.

@@ -1,6 +1,6 @@
 # Chapter 4 — Standards Lifecycle
 
-Every SHRS Standard MUST follow a strictly controlled lifecycle from its inception to deprecation. This ensures that only verified, peer-reviewed, and approved content is published.
+Every SHRS Standard MUST follow a strictly controlled Lifecycle State from its inception to deprecation. This ensures that only verified, peer-reviewed, and approved content is published.
 
 ## 4.1 Lifecycle States
 

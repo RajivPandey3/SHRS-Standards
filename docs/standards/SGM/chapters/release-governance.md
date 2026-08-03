@@ -9,8 +9,8 @@ A Publication Artifact is any generated document (such as a PDF, HTML page, or M
 
 ## 6.2 The Release Process
 A Release is the formal act of publishing a new Edition, Version, or Revision of a Standard.
-- A Release cannot occur unless it successfully passes through the Publication Gate.
+- A Release CANNOT occur unless it successfully passes through the Publication Gate.
 - The Publication Authority is responsible for validating that all Governance Evidence is in place before approving the Release.
 
 ## 6.3 Post-Release Corrections
-If an error is discovered after a Release, it MUST NOT be corrected by silently updating the Publication Artifact. Instead, a formal Corrigendum or Amendment SHALL be issued following the standard governance workflow.
+If an error is discovered after a Release, it MUST NOT be corrected by silently updating the Publication Artifact. Instead, a formal Corrigendum or Amendment SHALL be issued following the Standard governance workflow.
