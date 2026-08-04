@@ -3,7 +3,6 @@
 This directory hosts the canonical standards for the SHRS framework. 
 
 ## Active Standards
-- **[SEC - SHRS Ecosystem Constitution](SEC/index.md)**: The supreme legal document governing the entire engineering ecosystem.
 - **[SGM - Standards Governance Model](SGM/index.md)**: The foundational governance architecture for the repository.
 - **[SEG - Standards Editorial Guide](SEG/index.md)**: The mandatory style guide for language, formatting, and structural design across all standards.
 - **[SAO - Standards Authoring Operations](SAO/index.md)**: The operational procedures, Git workflows, and technical steps for authoring documentation.
