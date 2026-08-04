@@ -1,0 +1,10 @@
+# SHRS Canonical Code Owners
+# This file enforces the SHRS Constitution's review requirements.
+
+# The Chief Architect / Founder MUST review all baseline changes.
+*       @RajivPandey3
+
+# Specific canonical documentation requires strict architectural review.
+/docs/standards/    @RajivPandey3
+/docs/architecture/ @RajivPandey3
+/CONSTITUTION.md    @RajivPandey3
