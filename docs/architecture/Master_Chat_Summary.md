@@ -23,13 +23,8 @@ A major shift occurred when the Chief Architect and the AI decided that the "Pla
 
 ## 3. Core Directives Established for Engineering
 1. **The Game is the Customer:** Soul-Hunter is not just a game; it is the *first customer* of the SHRS ecosystem. If Soul-Hunter struggles, SHRS needs improvement.
-2. **The 5-Question Compass:** Every PR/Commit must answer:
-    * Purpose (Why does this exist?)
-    * Responsibility (What is its single responsibility?)
-    * Ownership (Where is its canonical home?)
-    * Evolution (Can it change safely?)
-    * Longevity (Will this make sense in 2036?)
-3. **Mission ENG-001:** The directive to create `CONSTITUTION.md` at the root of the repository, making it the supreme law of the ecosystem.
+2. **The 5-Question Compass:** Established the core requirement that every PR must answer 5 specific questions. *(This rule was formally extracted and is now canonically governed in the **[.github/PULL_REQUEST_TEMPLATE.md](../../.github/PULL_REQUEST_TEMPLATE.md)** and the **[SHRS Constitution](../../CONSTITUTION.md)**).*
+3. **Mission ENG-001:** The directive to create a single supreme law document. *(Resulted in the canonical **[CONSTITUTION.md](../../CONSTITUTION.md)**).*
 
 ## 4. Conclusion & Legacy
-The chat history proves that SHRS was not built by randomly writing Unity scripts. It was built by establishing a strict, self-governing ecosystem first. *Nothing is sacred except evidence. If implementation proves a better way, we evolve.*
+The chat history proves that SHRS was not built by randomly writing Unity scripts. It was built by establishing a strict, self-governing ecosystem first. *(See **[SEC-021 Architectural Humility](../../CONSTITUTION.md)** for the canonical policy on evolving based on evidence).*
