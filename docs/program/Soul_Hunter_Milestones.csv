@@ -1,0 +1,14 @@
+Milestone ID,Milestone Name,Task ID,Task Name,Phase,Status,Owner,Notes
+M1,Core Engine Foundation,M1-01,Event Bus Architecture,Architecture,Approved,Gemini,Sprint-001 Done
+M1,Core Engine Foundation,M1-02,Initialize Unity Project Architecture,Architecture,Pending,Gemini,
+M1,Core Engine Foundation,M1-03,Service Locator Implementation,Architecture,Pending,Gemini,
+M1,Core Engine Foundation,M1-04,Input Handling System,Architecture,Pending,Gemini,
+M2,Core Locomotion & Physics,M2-01,Player Controller (State Machine),Architecture,Pending,Gemini,
+M2,Core Locomotion & Physics,M2-02,Collision & Environment Interaction,Architecture,Pending,Gemini,
+M2,Core Locomotion & Physics,M2-03,Animation Rigging & States,Architecture,Pending,Gemini,
+M3,The Combat Loop,M3-01,Weapon System / Attack Hitboxes,Architecture,Pending,Gemini,
+M3,The Combat Loop,M3-02,Enemy AI (Behavior Trees),Architecture,Pending,Gemini,
+M3,The Combat Loop,M3-03,Health & Damage System,Architecture,Pending,Gemini,
+M4,Metagame & Persistence,M4-01,Save / Load System,Architecture,Pending,Gemini,
+M4,Metagame & Persistence,M4-02,UI / HUD integration,Architecture,Pending,Gemini,
+M4,Metagame & Persistence,M4-03,Scene Management & Loading,Architecture,Pending,Gemini,
