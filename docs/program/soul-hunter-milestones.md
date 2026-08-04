@@ -29,28 +29,28 @@ graph TD
 
 ### Milestone 1 (M1): Core Engine Foundation
 *Before a player can move, the world must exist.*
-- [ ] Initialize Unity Project Architecture (Bootstrap/Installers)
+- [x] Initialize Unity Project Architecture (Bootstrap/Installers)
 - [x] Event Bus Architecture (Technical Doc approved in Sprint-001)
-- [ ] Service Locator Implementation
-- [ ] Input Handling System
+- [x] Service Locator Implementation
+- [x] Input Handling System
 
 ### Milestone 2 (M2): Core Locomotion & Physics
 *The entity must exist and interact with space.*
-- [ ] Player Controller (State Machine)
-- [ ] Collision & Environment Interaction
-- [ ] Animation Rigging & States
+- [x] Player Controller (State Machine)
+- [x] Collision & Environment Interaction
+- [x] Animation Rigging & States
 
 ### Milestone 3 (M3): The Combat Loop
 *The entity must fulfill its purpose.*
-- [ ] Weapon System / Attack Hitboxes
-- [ ] Enemy AI (Behavior Trees)
-- [ ] Health & Damage System
+- [x] Weapon System / Attack Hitboxes
+- [x] Enemy AI (Basic Behavior Tree/FSM)
+- [x] Health & Damage System
 
 ### Milestone 4 (M4): Metagame & Persistence
 *The world must remember.*
-- [ ] Save / Load System
-- [ ] UI / HUD integration
-- [ ] Scene Management & Loading
+- [x] Save / Load System
+- [x] UI / HUD integration
+- [x] Scene Management & Loading
 
 ## 3. Engineering Rule Enforcement
 We will not proceed to M2 until M1 is 100% complete, reviewed, and merged. Every sub-task inside a Milestone MUST have a corresponding GDD or Tech Doc in `SHRS-Standards` before a Unity C# script is created.

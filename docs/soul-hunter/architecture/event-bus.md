@@ -10,6 +10,10 @@ The Event Bus is the central nervous system of Soul-Hunter. It decouples the Gam
 
 ```mermaid
 classDiagram
+    class IGameService {
+        <<interface>>
+        +Initialize()
+    }
     class EventBus {
         +Subscribe(EventType, Action)
         +Unsubscribe(EventType, Action)
@@ -22,6 +26,7 @@ classDiagram
         +Vector3 DeathLocation
     }
     
+    EventBus ..|> IGameService : Implements
     EventBus --> GameEvent : Manages
     PlayerDiedEvent ..|> GameEvent : Implements
 ```
