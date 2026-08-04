@@ -1,5 +1,7 @@
 # SHRS Standards Repository
 
+> 🛑 **START HERE:** Before writing code, raising issues, or proposing architecture, you must read the **[SHRS Engineering Constitution](CONSTITUTION.md)**. It is the supreme governing document of this ecosystem.
+
 Welcome to the **SHRS Standards Repository**, the canonical home for the governance, publication, and compliance models that power the SHRS ecosystem.
 
 ## What is SHRS?
