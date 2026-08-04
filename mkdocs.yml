@@ -106,6 +106,7 @@ nav:
           - Chapter 1 (Authoring Workflows): standards/SAO/chapters/authoring-workflows.md
           - Chapter 2 (Git Branching Strategy): standards/SAO/chapters/git-branching-strategy.md
           - Chapter 3 (Validation & CI/CD): standards/SAO/chapters/validation-and-cicd.md
+          - Chapter 4 (AI Engineering Workflow): standards/SAO/chapters/chapter-4-ai-engineering-workflow.md
       - Annexes:
           - Annex A (Pull Request Template): standards/SAO/annexes/annex-a-pr-template.md
           - Annex B (Work Order Template): standards/SAO/annexes/annex-b-work-order-template.md
