@@ -10,6 +10,8 @@ The SHRS Ecosystem Constitution (SEC) is the supreme legal document governing th
 
 ### Articles
 - [Article 1: The Hierarchy of Authority](chapters/article-1-hierarchy.md)
+- [Article 2: The Blueprint Boundary (SEC-020)](chapters/article-2-blueprint-boundary.md)
+- [Article 3: Architectural Humility (SEC-021)](chapters/article-3-architectural-humility.md)
 
 ### Metadata
 - [Metadata Config](metadata/METADATA.yaml)
