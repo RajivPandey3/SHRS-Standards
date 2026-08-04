@@ -46,6 +46,7 @@ nav:
   - Home: index.md
   - Engineering Constitution: CONSTITUTION.md
   - Program Roadmap: program/ROADMAP.md
+  - Game Milestones Tree: program/soul-hunter-milestones.md
   - Soul-Hunter Implementation:
       - Architecture:
           - Event Bus System: soul-hunter/architecture/event-bus.md
