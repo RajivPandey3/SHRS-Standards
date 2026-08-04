@@ -44,6 +44,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Engineering Constitution: CONSTITUTION.md
   - Program Roadmap: program/ROADMAP.md
   - Soul-Hunter Implementation:
       - Architecture:
