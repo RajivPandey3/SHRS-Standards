@@ -21,7 +21,13 @@ A major shift occurred when the Chief Architect and the AI decided that the "Pla
     * Era III: The Constitution ("How should SHRS make decisions?")
     * **Era IV: The Engineering Era ("Can SHRS prove itself?")**
 
-## 3. Core Directives Established for Engineering
+## 3. The Polishing Phase & Terminology Normalization (From Extra Chats)
+Before finalizing the standards, a critical shift was made from "Drafting" to "Polishing." 
+* **Standards Editors, Not Authors:** The team shifted focus to refining and validating existing concepts rather than adding new ones.
+* **Terminology Normalization (WO-P01):** The rule was established that one concept equals one term (no synonyms). E.g., Always use "Canonical Repository", never just "Repository".
+* **Capitalization Rule (ED-006):** Terms defined in the Glossary must always be capitalized (e.g., `Governance Record`, not `governance record`). *(See the official Glossary in the SGM Annexes for the canonical term list).*
+
+## 4. Core Directives Established for Engineering
 1. **The Game is the Customer:** Soul-Hunter is not just a game; it is the *first customer* of the SHRS ecosystem. If Soul-Hunter struggles, SHRS needs improvement.
 2. **The 5-Question Compass:** Established the core requirement that every PR must answer 5 specific questions. *(This rule was formally extracted and is now canonically governed in the **[.github/PULL_REQUEST_TEMPLATE.md](../../.github/PULL_REQUEST_TEMPLATE.md)** and the **[SHRS Constitution](../../CONSTITUTION.md)**).*
 3. **Mission ENG-001:** The directive to create a single supreme law document. *(Resulted in the canonical **[CONSTITUTION.md](../../CONSTITUTION.md)**).*
