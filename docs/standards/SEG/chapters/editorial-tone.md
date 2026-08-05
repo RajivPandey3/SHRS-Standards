@@ -1,6 +1,6 @@
 # Chapter 3: Editorial Tone & Voice
 
-The Soul-Hunter documentation serves multiple disciplines—programming, game design, and narrative writing. A consistent tone across these disciplines ensures that every team member can seamlessly read and understand the documentation.
+The SHRS ecosystem documentation serves multiple disciplines—programming, game design, and narrative writing. A consistent tone across these disciplines ensures that every team member can seamlessly read and understand the documentation.
 
 ## 3.1 Technical & Engineering Tone
 When writing technical documentation (such as architecture, Unity script descriptions, and API guides), the tone SHALL be objective, concise, and imperative.

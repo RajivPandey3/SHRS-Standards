@@ -17,6 +17,11 @@
 - [ ] I have run `mkdocs serve` locally and there are no broken links.
 - [ ] I have adhered to the formatting and terminology rules (e.g., bold stats, PascalCase for Unity scripts).
 
+## ⚠️ Risk Assessment
+- [ ] **Low Risk** (Documentation tweaks, typos, non-functional changes)
+- [ ] **Medium Risk** (Adding new standards, modifying existing workflows)
+- [ ] **High Risk** (Core architectural changes, constitution updates)
+
 ## 🔍 Reviewer Notes
 *Add any specific files or architectural changes the reviewer should pay close attention to.*
 
