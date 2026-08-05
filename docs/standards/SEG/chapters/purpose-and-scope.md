@@ -1,10 +1,10 @@
 # Chapter 1: Purpose & Scope
 
 ## 1.1 Purpose
-The Standards Editorial Guide (SEG) establishes the definitive rules for language, formatting, structural design, and stylistic consistency across all documentation within the Soul-Hunter repository (SHRS). It serves as the constitutional style guide to ensure that Game Design Documents (GDD), Technical Architecture definitions, and Lore are written with absolute clarity, precision, and canonical integrity.
+The Standards Editorial Guide (SEG) establishes the definitive rules for language, formatting, structural design, and stylistic consistency across all documentation within the SHRS ecosystem. It serves as the constitutional style guide to ensure that Game Design Documents (GDD), Technical Architecture definitions, and Lore are written with absolute clarity, precision, and canonical integrity.
 
 ## 1.2 Scope
-This standard strictly applies to all Knowledge Packages and formal documentation generated for the Soul-Hunter project. 
+This standard strictly applies to all Knowledge Packages and formal documentation generated for the SHRS ecosystem. 
 
 The scope includes:
 - **Game Design Documents (GDD):** Rules for describing mechanics, systems, balancing data, and user interfaces.
@@ -19,7 +19,7 @@ This standard does NOT govern the actual C# coding conventions used inside the U
 The rules defined in the SEG SHALL apply to all authors, game designers, writers, and technical maintainers contributing to the SHRS. Any documentation failing to adhere to these editorial standards SHALL be rejected at the Governance Gates.
 
 ## 1.4 The "AAA" Documentation Philosophy
-Soul-Hunter is treated as a AAA-level project. Consequently, its documentation must reflect AAA-level engineering rigor:
+The SHRS ecosystem is treated as a AAA-level project. Consequently, its documentation must reflect AAA-level engineering rigor:
 - **Precision:** Ambiguity is the enemy of development. Documentation SHALL use exact terminology.
 - **Scannability:** Documents SHALL be heavily structured using headings, lists, tables, and alerts to allow developers to find information instantly.
 - **Traceability:** Every major mechanic or technical requirement SHALL be uniquely identifiable.

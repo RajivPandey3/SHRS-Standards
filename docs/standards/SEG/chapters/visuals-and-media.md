@@ -1,6 +1,6 @@
 # Chapter 5: Visuals & Media Guidelines
 
-Game development documentation often requires more than text to convey complex designs. The Soul-Hunter repository leverages diagrams, screenshots, and UI mockups to bridge the gap between design and engineering.
+Game development documentation often requires more than text to convey complex designs. The SHRS ecosystem documentation leverages diagrams, screenshots, and UI mockups to bridge the gap between design and engineering.
 
 ## 5.1 Mermaid Architecture Diagrams
 Whenever possible, logic flows, state machines, and class structures SHALL be documented using Mermaid diagrams. Text-based diagrams are preferred over external image files because they can be version-controlled and edited directly in the Markdown source.
