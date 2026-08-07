@@ -20,7 +20,7 @@ The repository is strictly divided into functional layers. Every file must earn 
 ## Standards Included
 - **[Standards Governance Model (SGM)](docs/standards/SGM/index.md)**: The foundational rules for creating, maintaining, and publishing high-quality standards.
 - **[Knowledge Package Publication Model (KPM)](docs/standards/KPM/chapters/publication.md)**: The canonical framework for publishing Knowledge Packages (KPM-BL-001).
-- **[SHRS Ecosystem Constitution (SEC)](docs/standards/SEC/index.md)**: The supreme legal document governing the entire engineering ecosystem.
+- **[SHRS Ecosystem Constitution (SEC)](CONSTITUTION.md)**: The supreme legal document governing the entire engineering ecosystem.
 - **[Architecture Decision Records (ADRs)](docs/architecture/ADRs/index.md)**: Canonical registry of all major ecosystem decisions.
 
 ## Current Status

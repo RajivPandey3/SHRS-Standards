@@ -1,5 +1,5 @@
 ## The SHRS Engineering Compass
-*Per the [SHRS Constitution](../../CONSTITUTION.md), every change must answer these 5 questions before it can be reviewed.*
+*Per the [SHRS Constitution](../CONSTITUTION.md), every change must answer these 5 questions before it can be reviewed.*
 
 **1. Purpose (Why does this exist?)**
 <!-- Explain exactly what this PR adds, fixes, or changes. -->

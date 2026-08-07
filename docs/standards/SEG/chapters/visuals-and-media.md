@@ -21,7 +21,6 @@ Images MAY be embedded in the documentation when necessary (e.g., UI mockups, le
 
 ### 5.2.2 Accessibility and Context
 - Every embedded image SHALL include descriptive `alt` text.
-- Example: `![Mockup of the Main Menu UI](../assets/images/ui-main-menu.png)`
 - Screenshots of Unity Inspector settings MAY be used, but the critical values SHALL also be written out in text or stat blocks (as per Chapter 4) so they are searchable.
 
 ## 5.3 File Formats
