@@ -19,7 +19,7 @@ To ensure absolute clarity in requirements, the SHRS repository adopts the keywo
 - Tables SHALL be formatted properly with aligned columns.
 
 ## B.4 Cross-Reference Formatting
-- References to other chapters SHALL use relative markdown links (e.g., `[Chapter 5](../chapters/chapter-5.md)`).
+- References to other chapters SHALL use relative markdown links (e.g., `[Chapter 5](../chapters/release-governance.md)`).
 - Cross-references SHALL NOT use absolute URLs.
 
 ## B.5 Requirement ID Formatting

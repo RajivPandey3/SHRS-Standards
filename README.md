@@ -18,10 +18,12 @@ The repository is strictly divided into functional layers. Every file must earn 
 *Note: `site/` is a generated artifact and is ignored by version control. It is only built during deployment.*
 
 ## Standards Included
-- **[Standards Governance Model (SGM)](docs/standards/SGM/index.md)**: The foundational rules for creating, maintaining, and publishing high-quality standards.
-- **[Knowledge Package Publication Model (KPM)](docs/standards/KPM/chapters/publication.md)**: The canonical framework for publishing Knowledge Packages (KPM-BL-001).
-- **[SHRS Ecosystem Constitution (SEC)](docs/standards/SEC/index.md)**: The supreme legal document governing the entire engineering ecosystem.
-- **[Architecture Decision Records (ADRs)](docs/architecture/ADRs/index.md)**: Canonical registry of all major ecosystem decisions.
+- **[SGM - Standards Governance Model](docs/standards/SGM/index.md)**: The foundational governance architecture for the repository.
+- **[SEG - Standards Editorial Guide](docs/standards/SEG/index.md)**: The mandatory style guide for language, formatting, and structural design across all standards.
+- **[SAO - Standards Authoring Operations](docs/standards/SAO/index.md)**: The operational procedures, Git workflows, and technical steps for authoring documentation.
+- **[KPM - Knowledge Package Publication Model](docs/standards/KPM/chapters/publication.md)**: The canonical framework for publishing Knowledge Packages.
+- **[SHRS Ecosystem Constitution (SEC)](CONSTITUTION.md)**: The supreme legal document governing the entire engineering ecosystem.
+- **[ADRs - Architecture Decision Records](docs/architecture/ADRs/index.md)**: Canonical registry of all major ecosystem decisions.
 
 ## Current Status
 See our active decisions and active sprint status in the Roadmap.
@@ -42,3 +44,4 @@ All modifications must pass through the Governance Gates. Direct pushes to `main
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+

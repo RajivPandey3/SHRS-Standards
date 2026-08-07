@@ -1,13 +1,7 @@
-document_id: SHRS-SGM-001
-edition: "1"
-title: Standards Governance Model
-version: 0.2.0
-status: Release Candidate 1 (RC-1)
-lifecycle_state: Draft
-owner: Standards Maintainer (Transitional)
-maintainer: Standards Maintainer
-approval_authority: Standards Maintainer (Transitional)
-last_updated: 2026-08-03
-publication_date: TBD
-canonical_repository: "docs/standards/SGM/"
-document_class: Public / Open Standard
+package_id: "SHRS-SGM-001"
+title: "Standards Governance Model (SGM)"
+version: "1.0.0"
+owner: "Standards Maintainer"
+review_date: "2026-08-07"
+dependencies: []
+status: "Released"

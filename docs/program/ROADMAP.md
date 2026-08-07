@@ -21,9 +21,9 @@
 - [x] ADR Initialized
 - [x] Decision Registry Ready
 - [x] Repository Registry Ready
-- [ ] First Release Tagged
+- [x] First Release Tagged
 
-### Sprint-002 (Upcoming)
+### Sprint-002 (Completed)
 **Goal:** Governance Maturity.
 We will not jump immediately into the Unity engine. Sprint-002 will focus on:
 - ADR workflow
@@ -36,3 +36,4 @@ We will not jump immediately into the Unity engine. Sprint-002 will focus on:
 **The 2036 Test:** Every major decision must answer: *If the original authors disappeared tomorrow, could a new engineering team continue the project with confidence in 10 years?*
 
 If yes, approve. If no, improve.
+
