@@ -1,7 +1,8 @@
 package_id: "SHRS-KPM-001"
 title: "Knowledge Package Publication Model (KPM)"
-version: "1.0.0"
+version: "0.1.0"
 owner: "Standards Maintainer"
 review_date: "2026-08-07"
 dependencies: ["SHRS-SGM-001"]
 status: "Working Draft"
+

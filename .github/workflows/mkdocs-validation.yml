@@ -29,3 +29,9 @@ jobs:
       - name: Build documentation (Strict Mode)
         # --strict ensures that any warning (like broken links) fails the build
         run: mkdocs build --strict
+
+      - name: Check internal links across entire repository
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --offline "**/*.md"
+          fail: true

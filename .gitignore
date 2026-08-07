@@ -3,3 +3,7 @@ site/
 # Ignore python cache
 __pycache__/
 *.pyc
+
+# .NET Core
+bin/
+obj/

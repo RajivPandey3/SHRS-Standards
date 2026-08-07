@@ -1,5 +1,5 @@
 ## The SHRS Engineering Compass
-*Per the [SHRS Constitution](../CONSTITUTION.md), every change must answer these 5 questions before it can be reviewed.*
+*Per the [SHRS Constitution](../docs/CONSTITUTION.md), every change must answer these 5 questions before it can be reviewed.*
 
 **1. Purpose (Why does this exist?)**
 <!-- Explain exactly what this PR adds, fixes, or changes. -->
@@ -23,3 +23,4 @@
 - [ ] The commit message follows the required format (e.g., `feat(scope): message`).
 - [ ] No duplicate canonical sources have been created.
 - [ ] I am leaving this repository clearer than I found it.
+

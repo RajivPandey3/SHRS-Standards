@@ -12,7 +12,7 @@
 
 ## Sprints
 
-### Sprint-001 (Active)
+### Sprint-001 (Completed)
 **Goal:** Establish the Engineering Operating Model and Repository Baseline.
 **Success Criteria:**
 - [x] Repository Exists
@@ -24,6 +24,8 @@
 - [x] First Release Tagged
 
 ### Sprint-002 (Completed)
+### Sprint-003 (Upcoming)
+- [ ] Implement Input System
 **Goal:** Governance Maturity.
 We will not jump immediately into the Unity engine. Sprint-002 will focus on:
 - ADR workflow
@@ -36,4 +38,5 @@ We will not jump immediately into the Unity engine. Sprint-002 will focus on:
 **The 2036 Test:** Every major decision must answer: *If the original authors disappeared tomorrow, could a new engineering team continue the project with confidence in 10 years?*
 
 If yes, approve. If no, improve.
+
 

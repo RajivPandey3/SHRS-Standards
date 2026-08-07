@@ -9,3 +9,5 @@ An Architecture Decision Record (ADR) is a short text file in a format similar t
 - **[ADR-0002: Repository Architecture](adr-0002-repository-architecture.md)**
 - **[ADR-0003: The SHRS Vision](adr-0003-shrs-vision.md)**
 
+
+- **[ADR-0004: Hybrid Architecture](adr-0004-hybrid-architecture.md)**

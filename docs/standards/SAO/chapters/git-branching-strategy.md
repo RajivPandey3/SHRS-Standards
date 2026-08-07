@@ -22,10 +22,11 @@ Commit messages serve as the permanent historical log of the repository. They SH
 
 **Format:** `type(scope): description`
 - **Example:** `docs(sao): draft Chapter 2 for Git branching strategy`
-- **Example:** `fix(kpm): correct broken relative link in Chapter 11`
+- **Example:** `fix(kpm): correct broken relative link in Chapter 1`
 
 ## 2.4 Pull Requests and Merging
 When a branch is ready for review, the author opens a Pull Request.
 - The PR title SHALL clearly state the purpose and reference the Work Order.
 - The PR SHALL NOT be merged until it has received a formal approval from the designated Approval Authority.
 - When merging, "Squash and Merge" SHOULD be used to maintain a clean and readable Git history on the `main` branch.
+

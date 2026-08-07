@@ -13,7 +13,7 @@ High-quality metadata is critical for discoverability and automation.
 A well-architected Knowledge Package minimizes external reliance.
 - Packages SHOULD avoid circular dependencies.
 - Rely only on Approved and Published packages.
-- When an upstream dependency is deprecated, packages SHOULD immediately initiate an Evolution Work Order (as per Chapter 12) to update their links.
+- When an upstream dependency is deprecated, packages SHOULD immediately initiate an Evolution Work Order (as per Chapter 2) to update their links.
 
 ## 4.4 Asset Optimization
 Knowledge Assets constitute the core payload of a package.
@@ -28,4 +28,5 @@ Proper versioning prevents repository fragmentation.
 
 ## 4.6 Summary
 Adhering to these best practices ensures that Knowledge Packages remain robust, performant, and easily integrable across the SHRS ecosystem.
+
 

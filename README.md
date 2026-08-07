@@ -1,6 +1,6 @@
 # SHRS Standards Repository
 
-> 🛑 **START HERE:** Before writing code, raising issues, or proposing architecture, you must read the **[SHRS Engineering Constitution](CONSTITUTION.md)**. It is the supreme governing document of this ecosystem.
+> 🛑 **START HERE:** Before writing code, raising issues, or proposing architecture, you must read the **[SHRS Engineering Constitution](docs/CONSTITUTION.md)**. It is the supreme governing document of this ecosystem.
 
 Welcome to the **SHRS Standards Repository**, the canonical home for the governance, publication, and compliance models that power the SHRS ecosystem.
 
@@ -22,7 +22,7 @@ The repository is strictly divided into functional layers. Every file must earn 
 - **[SEG - Standards Editorial Guide](docs/standards/SEG/index.md)**: The mandatory style guide for language, formatting, and structural design across all standards.
 - **[SAO - Standards Authoring Operations](docs/standards/SAO/index.md)**: The operational procedures, Git workflows, and technical steps for authoring documentation.
 - **[KPM - Knowledge Package Publication Model](docs/standards/KPM/chapters/publication.md)**: The canonical framework for publishing Knowledge Packages.
-- **[SHRS Ecosystem Constitution (SEC)](CONSTITUTION.md)**: The supreme legal document governing the entire engineering ecosystem.
+- **[SHRS Ecosystem Constitution (SEC)](docs/CONSTITUTION.md)**: The supreme legal document governing the entire engineering ecosystem.
 - **[ADRs - Architecture Decision Records](docs/architecture/ADRs/index.md)**: Canonical registry of all major ecosystem decisions.
 
 ## Current Status
@@ -44,4 +44,5 @@ All modifications must pass through the Governance Gates. Direct pushes to `main
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
 
