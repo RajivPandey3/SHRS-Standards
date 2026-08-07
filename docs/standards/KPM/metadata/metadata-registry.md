@@ -1,6 +1,6 @@
-# Chapter 12 — Knowledge Package Metadata Registry
+# Knowledge Package Metadata Registry
 
-## 12.1 Purpose
+## Purpose
 The purpose of this chapter is to define the exact metadata registry structure required for all Knowledge Packages within the SHRS Ecosystem. Proper metadata ensures long-term discoverability, auditability, and governance compliance.
 
 ## 12.2 The Metadata Schema
@@ -16,3 +16,4 @@ Every Knowledge Package MUST include the following metadata fields explicitly de
 
 ## 12.3 Governance Enforcement
 The Repository Builder and Validation Authorities SHALL automatically reject any Knowledge Package that fails to provide the complete metadata schema outlined above.
+

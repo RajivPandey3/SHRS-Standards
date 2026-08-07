@@ -1,11 +1,11 @@
-# Chapter 11 — Knowledge Package Publication
+# Chapter 1 — Knowledge Package Publication
 
-## 11.1 Purpose
+## 1.1 Purpose
 The purpose of this chapter is to establish the Canonical Knowledge Package Publication Model (KPPM) governing the controlled publication, distribution, registration, versioning, and availability of Knowledge Packages within the SHRS Repository.
 
 Publication transforms a validated Knowledge Package into an officially governed repository artifact available for repository consumption.
 
-## 11.2 Objectives
+## 1.2 Objectives
 The Knowledge Package Publication Model SHALL:
 - Establish standardized publication procedures
 - Ensure publication quality
@@ -15,7 +15,7 @@ The Knowledge Package Publication Model SHALL:
 - Enable repository-wide availability
 - Facilitate long-term package preservation
 
-## 11.3 Publication Principles
+## 1.3 Publication Principles
 Knowledge Package publication SHALL conform to the following principles:
 - Governance Approval
 - Version Integrity
@@ -26,7 +26,7 @@ Knowledge Package publication SHALL conform to the following principles:
 - Auditability
 - Constitutional Compliance
 
-## 11.4 Publication Prerequisites
+## 1.4 Publication Prerequisites
 A Knowledge Package SHALL satisfy all of the following before publication:
 - **Structural Validation**: PASS
 - **Metadata Validation**: PASS
@@ -39,7 +39,7 @@ A Knowledge Package SHALL satisfy all of the following before publication:
 
 Publication SHALL NOT proceed until every prerequisite is satisfied.
 
-## 11.5 Publication Workflow
+## 1.5 Publication Workflow
 The canonical publication workflow SHALL be completed sequentially:
 
 ```mermaid
@@ -51,7 +51,7 @@ flowchart TD
     E --> F[Repository Availability]
 ```
 
-## 11.6 Publication Package
+## 1.6 Publication Package
 The published Knowledge Package SHALL include:
 - Package Manifest
 - Package Metadata
@@ -63,7 +63,7 @@ The published Knowledge Package SHALL include:
 
 These artifacts SHALL collectively constitute the official publication.
 
-## 11.7 Publication Metadata
+## 1.7 Publication Metadata
 Publication metadata SHALL include:
 
 | Metadata | Required |
@@ -78,7 +78,7 @@ Publication metadata SHALL include:
 
 Publication metadata SHALL become immutable after publication.
 
-## 11.8 Repository Registration
+## 1.8 Repository Registration
 Every published Knowledge Package SHALL be registered within the Repository Registry.
 Registration SHALL include:
 - Package Identifier
@@ -90,7 +90,7 @@ Registration SHALL include:
 
 The registry SHALL serve as the authoritative catalog of published packages.
 
-## 11.9 Version Publication
+## 1.9 Version Publication
 Every publication SHALL receive a unique version designation.
 Examples:
 - KPM Package v1.0
@@ -99,7 +99,7 @@ Examples:
 
 Published versions SHALL remain permanently identifiable.
 
-## 11.10 Publication Status
+## 1.10 Publication Status
 Knowledge Packages SHALL use one of the following publication states:
 
 | Status | Meaning |
@@ -112,7 +112,7 @@ Knowledge Packages SHALL use one of the following publication states:
 
 Publication status SHALL remain governed.
 
-## 11.11 Distribution
+## 1.11 Distribution
 Published Knowledge Packages MAY be distributed through:
 - Repository Libraries
 - Repository Search Services
@@ -123,7 +123,7 @@ Published Knowledge Packages MAY be distributed through:
 
 Distribution SHALL preserve package integrity.
 
-## 11.12 Publication Integrity
+## 1.12 Publication Integrity
 After publication:
 - Published assets SHALL remain immutable.
 - Package Manifest SHALL remain fixed.
@@ -132,7 +132,7 @@ After publication:
 
 Modifications SHALL require publication of a new version.
 
-## 11.13 Publication Audit
+## 1.13 Publication Audit
 Repository publication SHALL maintain audit records including:
 - Publication date
 - Publication authority
@@ -143,7 +143,7 @@ Repository publication SHALL maintain audit records including:
 
 Publication audits SHALL remain permanently preserved.
 
-## 11.14 Publication Governance
+## 1.14 Publication Governance
 Publication SHALL be authorized only by the Repository Publication Authority.
 Publication decisions SHALL:
 - Reference completed validation
@@ -153,5 +153,6 @@ Publication decisions SHALL:
 
 Unauthorized publication SHALL NOT be permitted.
 
-## 11.15 Summary
+## 1.15 Summary
 The Knowledge Package Publication Model establishes the canonical publication framework for Knowledge Packages within the SHRS Repository. It ensures that every published package is validated, governed, version-controlled, traceable, discoverable, and permanently preserved while maintaining constitutional alignment with KRA-BL-001 and KAM-BL-001.
+

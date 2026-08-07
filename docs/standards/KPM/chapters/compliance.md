@@ -1,11 +1,11 @@
-# Chapter 13 — Knowledge Package Compliance
+# Chapter 3 — Knowledge Package Compliance
 
-## 13.1 Purpose
+## 3.1 Purpose
 The purpose of this chapter is to establish the Canonical Knowledge Package Compliance Model (KPCM-C) governing compliance assessment, conformance verification, certification, audit readiness, and continuous compliance management of Knowledge Packages within the SHRS Repository.
 
 Compliance ensures that every Knowledge Package conforms to constitutional architecture, repository governance, publication standards, and lifecycle requirements throughout its existence.
 
-## 13.2 Objectives
+## 3.2 Objectives
 The Knowledge Package Compliance Model SHALL:
 - Establish package compliance requirements
 - Verify repository conformance
@@ -15,7 +15,7 @@ The Knowledge Package Compliance Model SHALL:
 - Enable continuous compliance monitoring
 - Facilitate baseline certification
 
-## 13.3 Compliance Principles
+## 3.3 Compliance Principles
 Knowledge Package compliance SHALL conform to the following principles:
 - Constitutional Compliance
 - Repository Consistency
@@ -26,7 +26,7 @@ Knowledge Package compliance SHALL conform to the following principles:
 - Traceability
 - Auditability
 
-## 13.4 Compliance Scope
+## 3.4 Compliance Scope
 Compliance SHALL verify the following aspects of every Knowledge Package:
 - Package Architecture
 - Package Metadata
@@ -41,7 +41,7 @@ Compliance SHALL verify the following aspects of every Knowledge Package:
 
 Every governed Knowledge Package SHALL remain within this compliance scope.
 
-## 13.5 Compliance Categories
+## 3.5 Compliance Categories
 Knowledge Packages SHALL be evaluated in the following compliance categories:
 
 | Category | Purpose |
@@ -56,7 +56,7 @@ Knowledge Packages SHALL be evaluated in the following compliance categories:
 | Lifecycle Compliance | Verify lifecycle integrity |
 | Publication Compliance | Verify publication readiness |
 
-## 13.6 Normative Compliance
+## 3.6 Normative Compliance
 Every Knowledge Package SHALL conform to the following governing standards where applicable:
 - KRA-BL-001
 - KAM-BL-001
@@ -70,7 +70,7 @@ Every Knowledge Package SHALL conform to the following governing standards where
 
 Additional repository standards MAY apply according to package type.
 
-## 13.7 Compliance Criteria
+## 3.7 Compliance Criteria
 Every Knowledge Package SHALL satisfy the following mandatory criteria:
 
 | Criterion | Required |
@@ -86,7 +86,7 @@ Every Knowledge Package SHALL satisfy the following mandatory criteria:
 
 Failure of any mandatory criterion SHALL result in non-conformance.
 
-## 13.8 Compliance Assessment
+## 3.8 Compliance Assessment
 Repository compliance assessment SHALL evaluate:
 - Package completeness
 - Architectural consistency
@@ -98,7 +98,7 @@ Repository compliance assessment SHALL evaluate:
 
 Assessment results SHALL be documented.
 
-## 13.9 Compliance Levels
+## 3.9 Compliance Levels
 Knowledge Packages SHALL receive one compliance status:
 
 | Status | Meaning |
@@ -109,7 +109,7 @@ Knowledge Packages SHALL receive one compliance status:
 
 Conditional compliance SHALL require documented governance approval.
 
-## 13.10 Compliance Evidence
+## 3.10 Compliance Evidence
 Every compliance assessment SHALL generate evidence including:
 - Compliance Identifier
 - Package Identifier
@@ -122,7 +122,7 @@ Every compliance assessment SHALL generate evidence including:
 
 Compliance evidence SHALL be permanently preserved.
 
-## 13.11 Non-Conformance Management
+## 3.11 Non-Conformance Management
 When non-conformance is identified, the Repository SHALL:
 - Record the issue
 - Classify its severity
@@ -133,7 +133,7 @@ When non-conformance is identified, the Repository SHALL:
 
 Critical non-conformance SHALL prevent publication.
 
-## 13.12 Compliance Monitoring
+## 3.12 Compliance Monitoring
 Repository compliance SHALL be monitored throughout the package lifecycle. Monitoring MAY occur:
 - After revisions
 - After dependency changes
@@ -143,7 +143,7 @@ Repository compliance SHALL be monitored throughout the package lifecycle. Monit
 
 Monitoring SHALL remain continuous.
 
-## 13.13 Compliance Audit
+## 3.13 Compliance Audit
 Repository audits SHALL verify:
 - Constitutional conformity
 - Package governance
@@ -155,7 +155,7 @@ Repository audits SHALL verify:
 
 Audit findings SHALL become permanent repository records.
 
-## 13.14 Corrective Actions
+## 3.14 Corrective Actions
 Corrective actions MAY include:
 - Metadata correction
 - Package Manifest updates
@@ -167,7 +167,7 @@ Corrective actions MAY include:
 
 Corrective actions SHALL be documented and independently verified.
 
-## 13.15 Compliance Integrity
+## 3.15 Compliance Integrity
 The Repository SHALL preserve:
 - Constitutional conformity
 - Governance consistency
@@ -178,5 +178,6 @@ The Repository SHALL preserve:
 
 Loss of compliance integrity SHALL constitute repository non-conformance.
 
-## 13.16 Summary
+## 3.16 Summary
 The Knowledge Package Compliance Model establishes the canonical compliance framework governing Knowledge Packages within the SHRS Repository. It ensures that every Knowledge Package remains constitutionally aligned, governance-compliant, publication-ready, continuously monitored, and fully auditable while preserving long-term repository integrity.
+

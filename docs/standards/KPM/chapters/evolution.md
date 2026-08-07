@@ -1,11 +1,11 @@
-# Chapter 12 — Knowledge Package Evolution
+# Chapter 2 — Knowledge Package Evolution
 
-## 12.1 Purpose
+## 2.1 Purpose
 The purpose of this chapter is to establish the Canonical Knowledge Package Evolution Model (KPEM) governing the controlled evolution, revision, enhancement, modernization, and long-term sustainability of Knowledge Packages within the SHRS Repository.
 
 Package evolution ensures that repository knowledge remains accurate, reusable, maintainable, and constitutionally compliant while preserving historical integrity.
 
-## 12.2 Objectives
+## 2.2 Objectives
 The Knowledge Package Evolution Model SHALL:
 - Support controlled package evolution
 - Preserve repository stability
@@ -15,7 +15,7 @@ The Knowledge Package Evolution Model SHALL:
 - Facilitate governed innovation
 - Ensure long-term maintainability
 
-## 12.3 Evolution Principles
+## 2.3 Evolution Principles
 Knowledge Package evolution SHALL conform to the following principles:
 - Controlled Change
 - Backward Traceability
@@ -26,7 +26,7 @@ Knowledge Package evolution SHALL conform to the following principles:
 - Minimal Disruption
 - Continuous Improvement
 
-## 12.4 Evolution Triggers
+## 2.4 Evolution Triggers
 Knowledge Package evolution MAY be initiated by:
 - Curriculum changes
 - New Knowledge Assets
@@ -38,7 +38,7 @@ Knowledge Package evolution MAY be initiated by:
 
 Every evolution SHALL have a documented justification.
 
-## 12.5 Types of Evolution
+## 2.5 Types of Evolution
 The Repository recognizes the following evolution types:
 
 | Evolution Type | Description |
@@ -52,7 +52,7 @@ The Repository recognizes the following evolution types:
 
 Each evolution SHALL be classified before implementation.
 
-## 12.6 Version Evolution
+## 2.6 Version Evolution
 Every approved evolution SHALL result in an appropriate version update. Typical progression:
 
 ```mermaid
@@ -64,7 +64,7 @@ flowchart TD
 
 Version numbering SHALL follow repository versioning policies.
 
-## 12.7 Baseline Preservation
+## 2.7 Baseline Preservation
 Previous published versions SHALL remain preserved.
 The Repository SHALL maintain:
 - Original publication
@@ -75,7 +75,7 @@ The Repository SHALL maintain:
 
 Historical baselines SHALL remain immutable.
 
-## 12.8 Asset Evolution
+## 2.8 Asset Evolution
 Evolution MAY include:
 - Addition of Knowledge Assets
 - Retirement of obsolete assets
@@ -85,7 +85,7 @@ Evolution MAY include:
 
 Every asset modification SHALL remain traceable.
 
-## 12.9 Dependency Evolution
+## 2.9 Dependency Evolution
 Dependency evolution SHALL ensure:
 - Compatibility with updated packages
 - Removal of obsolete dependencies
@@ -94,7 +94,7 @@ Dependency evolution SHALL ensure:
 
 Dependency changes SHALL undergo repository validation.
 
-## 12.10 Manifest Evolution
+## 2.10 Manifest Evolution
 The Package Manifest SHALL evolve whenever:
 - Package contents change
 - Metadata changes
@@ -104,7 +104,7 @@ The Package Manifest SHALL evolve whenever:
 
 The updated manifest SHALL become authoritative for the new version only.
 
-## 12.11 Governance During Evolution
+## 2.11 Governance During Evolution
 Every evolution SHALL require:
 - Approved change request
 - Governance review
@@ -114,7 +114,7 @@ Every evolution SHALL require:
 
 Unapproved evolution SHALL NOT be permitted.
 
-## 12.12 Evolution Validation
+## 2.12 Evolution Validation
 Every evolved package SHALL undergo:
 - Structural validation
 - Metadata validation
@@ -125,7 +125,7 @@ Every evolved package SHALL undergo:
 
 Evolution SHALL NOT bypass repository validation.
 
-## 12.13 Evolution Traceability
+## 2.13 Evolution Traceability
 The Repository SHALL maintain traceability between:
 - Previous versions
 - Revised versions
@@ -136,7 +136,7 @@ The Repository SHALL maintain traceability between:
 
 Complete evolution history SHALL remain permanently available.
 
-## 12.14 Evolution Constraints
+## 2.14 Evolution Constraints
 The following constraints SHALL apply:
 - Published versions SHALL remain immutable.
 - Evolution SHALL create a new version.
@@ -146,7 +146,7 @@ The following constraints SHALL apply:
 
 Violation of these constraints SHALL constitute repository non-conformance.
 
-## 12.15 Evolution Integrity
+## 2.15 Evolution Integrity
 The Repository SHALL preserve:
 - Historical continuity
 - Version consistency
@@ -156,5 +156,6 @@ The Repository SHALL preserve:
 
 Evolution integrity SHALL remain mandatory throughout the package lifecycle.
 
-## 12.16 Summary
+## 2.16 Summary
 The Knowledge Package Evolution Model establishes the canonical framework governing the controlled evolution of Knowledge Packages within the SHRS Repository. It ensures that repository knowledge evolves through governed, validated, version-controlled, and fully traceable processes while preserving constitutional alignment with KRA-BL-001, KAM-BL-001, and future repository baselines.
+
