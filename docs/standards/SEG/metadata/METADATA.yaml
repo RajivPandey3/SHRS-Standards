@@ -1,7 +1,8 @@
 package_id: "SHRS-SEG-001"
 title: "Standards Editorial Guide (SEG)"
-version: "1.0.0"
+version: "0.1.0"
 owner: "Standards Maintainer"
 review_date: "2026-08-07"
 dependencies: ["SHRS-SGM-001"]
 status: "Working Draft"
+

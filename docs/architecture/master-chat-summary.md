@@ -29,8 +29,9 @@ Before finalizing the standards, a critical shift was made from "Drafting" to "P
 
 ## 4. Core Directives Established for Engineering
 1. **The Game is the Customer:** Soul-Hunter is not just a game; it is the *first customer* of the SHRS ecosystem. If Soul-Hunter struggles, SHRS needs improvement.
-2. **The 5-Question Compass:** Established the core requirement that every PR must answer 5 specific questions. *(This rule was formally extracted and is now canonically governed in the **[.github/PULL_REQUEST_TEMPLATE.md](../../.github/PULL_REQUEST_TEMPLATE.md)** and the **[SHRS Constitution](../../CONSTITUTION.md)**).*
-3. **Mission ENG-001:** The directive to create a single supreme law document. *(Resulted in the canonical **[CONSTITUTION.md](../../CONSTITUTION.md)**).*
+2. **The 5-Question Compass:** Established the core requirement that every PR must answer 5 specific questions. *(This rule was formally extracted and is now canonically governed in the **[.github/PULL_REQUEST_TEMPLATE.md](../../.github/PULL_REQUEST_TEMPLATE.md)** and the **[SHRS Constitution](../CONSTITUTION.md)**).*
+3. **Mission ENG-001:** The directive to create a single supreme law document. *(Resulted in the canonical **[CONSTITUTION.md](../CONSTITUTION.md)**).*
 
 ## 4. Conclusion & Legacy
-The chat history proves that SHRS was not built by randomly writing Unity scripts. It was built by establishing a strict, self-governing ecosystem first. *(See **[SEC-021 Architectural Humility](../../CONSTITUTION.md)** for the canonical policy on evolving based on evidence).*
+The chat history proves that SHRS was not built by randomly writing Unity scripts. It was built by establishing a strict, self-governing ecosystem first. *(See **[SEC-021 Architectural Humility](../CONSTITUTION.md)** for the canonical policy on evolving based on evidence).*
+

@@ -1,0 +1,5 @@
+nav:
+  - authoring-workflows.md
+  - git-branching-strategy.md
+  - validation-and-cicd.md
+  - chapter-4-ai-engineering-workflow.md

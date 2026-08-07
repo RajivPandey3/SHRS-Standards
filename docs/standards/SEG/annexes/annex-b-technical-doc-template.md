@@ -26,17 +26,11 @@ classDiagram
 - `Rigidbody`
 - `BoxCollider` (IsTrigger: **True**)
 
-## 3. Public API / Methods
-*List the methods that other scripts are allowed to call.*
+## 3. Hybrid System / ECS Compliance
+*Detail how this system adheres to the project's hybrid architecture rules and avoids runtime allocations.*
 
-### `PublicMethodName(type arg)`
-*Description of what the method does and what it returns.*
-
-## 4. Inspector Variables
-*List the variables exposed to the Unity Inspector so Game Designers know what to tweak.*
-
-- `float moveSpeed`: The base speed of the entity (Default: **5.0f**).
-- `GameObject deathVFX`: The prefab spawned upon destruction.
+## 4. Integration with Bootstrap
+*Explain how this system is registered or initialized via the BootstrapInstaller.*
 
 ## 5. Performance / Optimization Notes
 !!! warning "Performance Note"
@@ -44,3 +38,4 @@ classDiagram
 
 ---
 *(End of Template)*
+
