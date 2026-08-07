@@ -30,7 +30,7 @@ In-game proper nouns (Characters, Factions, Locations, Unique Items) SHALL alway
 - **Incorrect:** The `Shadow Guild` operates out of the obsidian citadel.
 
 ### 2.2.2 The Terminology Registry
-Any newly introduced mechanic, lore term, or technical acronym SHALL be formally registered in the [Terminology Registry](../metadata/terminology-registry.md). Authors SHALL verify a term's canonical spelling against the registry before using it in official documentation.
+Any newly introduced mechanic, lore term, or technical acronym SHALL be formally registered in the [Terminology Registry](../../SGM/metadata/terminology-registry.md). Authors SHALL verify a term's canonical spelling against the registry before using it in official documentation.
 
 ## 2.3 UI and Input References
 

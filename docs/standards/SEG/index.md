@@ -8,15 +8,11 @@ The Standards Editorial Guide (SEG) provides the mandatory rules for language, f
 
 ## Table of Contents
 
-### Front Matter
-- [Preface](front-matter/preface.md)
-- [Document Control](front-matter/document-control.md)
-
 ### Chapters
-*(Drafting in progress)*
+Refer to the side navigation for the complete list of published chapters.
 
 ### Annexes
-*(Drafting in progress)*
+Refer to the side navigation for the available annexes.
 
 ### Metadata
 - [Metadata Config](metadata/METADATA.yaml)
