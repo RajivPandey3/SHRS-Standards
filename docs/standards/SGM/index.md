@@ -33,13 +33,14 @@ Standards Governance Model (SGM)
 - [Annex F: Requirement Traceability Matrix](annexes/requirement-traceability-matrix.md)
 
 ### 4. Metadata
-- [Changelog](metadata/CHANGELOG.md)
-- [Decisions](metadata/DECISIONS.md)
-- [Release Notes](metadata/RELEASE_NOTES.md)
-- [Requirement Registry](metadata/REQUIREMENT_REGISTRY.md)
-- [Session Log](metadata/SESSION_LOG.md)
+- [Changelog](metadata/changelog.md)
+- [Decisions](metadata/decisions.md)
+- [Release Notes](metadata/release-notes.md)
+- [Requirement Registry](metadata/requirement-registry.md)
+- [Session Log](metadata/session-log.md)
 - [Terminology Registry](metadata/terminology-registry.md)
 
 ## Normative References
 - KRA-BL-001
 - KAM-BL-001
+
