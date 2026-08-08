@@ -24,14 +24,18 @@ When you submit a PR, the GitHub Actions CI pipeline will run two primary checks
 - Do not use uppercase filenames except for universally standard root files like `README.md` or `CONTRIBUTING.md`.
 
 ## 4. Metadata Rules
-Any new standard, chapter, or major architectural document must include a standard YAML metadata block or a `METADATA.yaml` file in its folder. The mandatory schema requires 5 fields:
+Any new standard, chapter, or major architectural document must include a standard YAML metadata block or a `METADATA.yaml` file in its folder. The standard metadata schema requires the following mandatory fields:
+
 - `package_id`
 - `title`
 - `version`
 - `owner`
 - `status`
-- `review_date` (optional but recommended)
 - `dependencies`
+
+*(Note: `review_date` is optional but recommended.)*
+
+For the authoritative metadata schema, refer to: [metadata-registry.md](docs/standards/KPM/metadata/metadata-registry.md)
 
 Ensure consistency with existing standards like SGM, SEG, SAO, and KPM.
 
@@ -41,3 +45,4 @@ Before making any architectural decisions or adding new rules, read the [SHRS Co
 - If you intend to change an existing process, ensure you update the relevant Standard (e.g., SEG for editorial rules, SAO for architecture rules).
 
 Thank you for helping maintain a robust, transparent, and professionally governed repository!
+
