@@ -19,8 +19,9 @@
 ---
 
 ### Governance Checklist
-- [ ] This PR does not contradict the **SHRS Constitution**.
-- [ ] The commit message follows the required format (e.g., `feat(scope): message`).
-- [ ] No duplicate canonical sources have been created.
-- [ ] I am leaving this repository clearer than I found it.
+- [ ] Constitution reviewed?
+- [ ] Naming rules followed?
+- [ ] Metadata updated?
+- [ ] MkDocs passes?
+- [ ] Links validated?
 
